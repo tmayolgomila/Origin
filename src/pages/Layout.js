@@ -53,7 +53,9 @@ const Layout = () => {
               </ul>
             </div>
             <button id="navButtonOpenMobile" onClick={toggleMobileNav}>
-              <ion-icon size="large" name="menu-outline"></ion-icon>
+              {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+              
+             
             </button>
           </nav>
         </section>
