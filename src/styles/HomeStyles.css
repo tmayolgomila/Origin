@@ -1,0 +1,8 @@
+#containerHome{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 2em;
+}
+#homeTextGradient{
+    color: blueviolet;
+}
