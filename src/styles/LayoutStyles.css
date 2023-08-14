@@ -59,10 +59,9 @@ margin-left: -3em;
     }
 #myLinks ul li button a{
 text-decoration: none;
-color: white;
 font-weight: bold;
 font-size: 40px;
-
+color: fuchsia;
 }
 .mobileNav{
 display: flex;
@@ -72,8 +71,7 @@ justify-content: center;
 #mobileTitleContainer{
     position: fixed;
     left: 1em;
-    top: 0.2em;
-    font-size: large;
+    font-size: 20px;
 }
 
 #navButtonOpenMobile{
@@ -81,9 +79,8 @@ border: none;
 background: none;
 position: absolute;
 right: 1em;
-margin-top: 1em;
-color: white;
-
+margin-top: 1.3em;
+color: fuchsia;
 }
 
 .mobileNavbar {

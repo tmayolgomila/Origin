@@ -1,12 +1,18 @@
+import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom"; // Make sure to import BrowserRouter, Routes, and Route
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from './pages/Contact'
 
+
 function App() {
+
+
   return (
+
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -16,6 +22,8 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+
+
   );
 }
 

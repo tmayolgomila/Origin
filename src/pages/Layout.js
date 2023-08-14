@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "../styles/LayoutStyles.css";
 
+
 const Layout = () => {
+
   const [isSearching, setIsSearching] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 420);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -24,6 +26,7 @@ const Layout = () => {
 
   return (
     <>
+    
       {isMobileView ? (
         <section className="mobileNavbar">
           <nav className="mobileNav">
@@ -91,6 +94,7 @@ const Layout = () => {
       )}
 
       <Outlet className="outlet" />
+
     </>
   );
 };
