@@ -14,7 +14,7 @@ import foto1 from '../img/img1.jpg'
 
   return (
     <div id='containerHome'>
-      <h1 id='containerHomeTitle'>Welcome to<span id='homeTextGradient'> Origin </span></h1>
+      <h1 id='containerHomeTitle'>Welcome to{currentStyle == 'body-style-2' ? (<span id='homeTextGradient'> Origin </span>) : (<span id='homeTextGradient2'> Origin </span>) }</h1>
       <p id='principalParagraph'>A marketing website theme built with <a id='reactLink' href="https://react.dev/" target="_blank">React</a> and carefully crafted for startups and businesses.</p>
       
       <div id='homeContainerButtons'>

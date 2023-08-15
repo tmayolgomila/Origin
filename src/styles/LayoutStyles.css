@@ -61,7 +61,7 @@ margin-left: -3em;
 text-decoration: none;
 font-weight: bold;
 font-size: 40px;
-color: fuchsia;
+color: rgb(0, 255, 200);;
 }
 .mobileNav{
 display: flex;
@@ -80,7 +80,7 @@ background: none;
 position: absolute;
 right: 1em;
 margin-top: 1.3em;
-color: fuchsia;
+color: rgb(0, 255, 200);;
 }
 
 .mobileNavbar {
