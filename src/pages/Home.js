@@ -2,6 +2,22 @@ import React, {useState} from 'react'
 import '../styles/HomeStyles.css'
 import foto1 from '../img/img1.jpg'
 
+
+
+
+
+export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
+
+  return(
+    <div className='buttonThemes'>
+    <button id='buttonClassic' onClick={() => handleStyleChange('body-style-1')}>Classic</button>
+    <button id='buttonDark' onClick={() => handleStyleChange('body-style-2')}>Dark</button>
+    <button id='buttonEarth' onClick={() => handleStyleChange('body-style-3')}>Earth</button>
+    <button id='buttonOcean' onClick={() => handleStyleChange('body-style-4')}>Ocean</button>
+  </div>
+  )
+}
+
  const Home = () => {
 
   const [currentStyle, setCurrentStyle] = useState('body-style-2');
@@ -11,6 +27,7 @@ import foto1 from '../img/img1.jpg'
     document.body.classList.add(newStyle); 
     setCurrentStyle(newStyle); 
   };
+
 
 
     return (
@@ -28,12 +45,7 @@ import foto1 from '../img/img1.jpg'
               <button id='styleGuideButton'>Style Guide </button>
             </div>
     
-            <div className='buttonThemes'>
-              <button id='buttonClassic' onClick={() => handleStyleChange('body-style-1')}>Classic</button>
-              <button id='buttonDark' onClick={() => handleStyleChange('body-style-2')}>Dark</button>
-              <button id='buttonEarth' onClick={() => handleStyleChange('body-style-3')}>Earth</button>
-              <button id='buttonOcean' onClick={() => handleStyleChange('body-style-4')}>Ocean</button>
-            </div>
+            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
 
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -52,12 +64,7 @@ import foto1 from '../img/img1.jpg'
               <button id='styleGuideButton'>Style Guide </button>
             </div>
 
-            <div className='buttonThemes'>
-              <button id='buttonClassic' onClick={() => handleStyleChange('body-style-1')}>Classic</button>
-              <button id='buttonDark' onClick={() => handleStyleChange('body-style-2')}>Dark</button>
-              <button id='buttonEarth' onClick={() => handleStyleChange('body-style-3')}>Earth</button>
-              <button id='buttonOcean' onClick={() => handleStyleChange('body-style-4')}>Ocean</button>
-            </div>
+            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
 
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -75,12 +82,8 @@ import foto1 from '../img/img1.jpg'
               <button id='getStartedButton'>Get Started</button>
               <button id='styleGuideButton'>Style Guide </button>
             </div>
-            <div className='buttonThemes'>
-              <button id='buttonClassic' onClick={() => handleStyleChange('body-style-1')}>Classic</button>
-              <button id='buttonDark' onClick={() => handleStyleChange('body-style-2')}>Dark</button>
-              <button id='buttonEarth' onClick={() => handleStyleChange('body-style-3')}>Earth</button>
-              <button id='buttonOcean' onClick={() => handleStyleChange('body-style-4')}>Ocean</button>
-            </div>
+         
+            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
     
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -99,12 +102,8 @@ import foto1 from '../img/img1.jpg'
               <button id='styleGuideButton'>Style Guide </button>
             </div>
 
-            <div className='buttonThemes'>
-              <button id='buttonClassic' onClick={() => handleStyleChange('body-style-1')}>Classic</button>
-              <button id='buttonDark' onClick={() => handleStyleChange('body-style-2')}>Dark</button>
-              <button id='buttonEarth' onClick={() => handleStyleChange('body-style-3')}>Earth</button>
-              <button id='buttonOcean' onClick={() => handleStyleChange('body-style-4')}>Ocean</button>
-            </div>
+            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
+
 
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
