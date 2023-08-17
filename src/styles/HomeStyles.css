@@ -9,12 +9,20 @@
     font-size: 40px;
 }
 
-#homeTextGradient{
+#homeText{
     color: rgb(0, 255, 200);
 }
 
-#homeTextGradient2{
+#homeText2{
     color: rgb(208, 0, 255);
+}
+
+#homeText3{
+    color: rgb(28, 75, 228);
+}
+
+#homeText4{
+    color: rgb(235, 29, 29);
 }
 
 #reactLink{
