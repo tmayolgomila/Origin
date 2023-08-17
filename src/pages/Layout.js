@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import "../styles/LayoutStyles.css";
 
 
-const Layout = () => {
+const Layout = ({currentStyle}) => {
 
   const [isSearching, setIsSearching] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 420);
@@ -55,11 +55,31 @@ const Layout = () => {
                 </li>
               </ul>
             </div>
-            <button id="navButtonOpenMobile" onClick={toggleMobileNav}>
-              {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+            <div>
+            {(() => {
+
+if (currentStyle == 'body-style-2') {
+  return (
+
+    <button id="navButtonOpenMobile1" onClick={toggleMobileNav}>
               
-             
-            </button>
+    {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+    
+  </button>
+  )} else{
+    return(
+      <button id="navButtonOpenMobile" onClick={toggleMobileNav}>
+              
+      {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+      
+    </button>
+    )
+  }
+
+            })()}
+
+</div>
+
           </nav>
         </section>
       ) : (
