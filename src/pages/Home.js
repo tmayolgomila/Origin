@@ -57,7 +57,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
           return (
             <div id='containerHome'>
             <h1 id='containerHomeTitle'>Welcome to <span id='homeText2'> Origin </span></h1>
-            <p id='principalParagraph'>A marketing website theme built with <a id='reactLink' href="https://react.dev/" target="_blank">React</a> and carefully crafted for startups and businesses.</p>
+            <p id='principalParagraph'>A marketing website theme built with <a id='reactLink1' href="https://react.dev/" target="_blank">React</a> and carefully crafted for startups and businesses.</p>
             
             <div id='homeContainerButtons'>
               <button id='getStartedButton1'>Get Started</button>
