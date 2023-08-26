@@ -110,3 +110,99 @@ margin-top: 1.3em;
     right: 2em;
 
   }
+
+  #myLinks1{
+    margin-top: 3em;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 16px;
+    backdrop-filter: blur(-1px);
+    height: 100vh;
+    
+    }
+    #myLinks1 ul{
+    
+    width: 100vw;
+    margin-left: -3em;
+    
+    }
+    #myLinks1 ul li{
+        list-style: none;
+        text-align: center;
+    }
+    #myLinks1 ul li button{
+        background: none;
+        border: none;
+        padding: 0.5em;
+        font-size: large;
+        
+        }
+    #myLinks1 ul li button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    }
+
+
+    #myLinks3{
+        margin-top: 3em;
+        background: rgba(240, 240, 240, 0.88);
+        border-radius: 16px;
+        backdrop-filter: blur(-1px);
+        height: 100vh;
+        
+        }
+        #myLinks3 ul{
+        
+        width: 100vw;
+        margin-left: -3em;
+        
+        }
+        #myLinks3 ul li{
+            list-style: none;
+            text-align: center;
+        }
+        #myLinks3 ul li button{
+            background: none;
+            border: none;
+            padding: 0.5em;
+            font-size: large;
+            
+            }
+        #myLinks3 ul li button a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 40px;
+        }
+    
+        #myLinks4{
+            margin-top: 3em;
+            background: rgba(161, 207, 255, 0.88);
+            border-radius: 16px;
+            backdrop-filter: blur(-1px);
+            height: 100vh;
+            
+            }
+            #myLinks4 ul{
+            
+            width: 100vw;
+            margin-left: -3em;
+            
+            }
+            #myLinks4 ul li{
+                list-style: none;
+                text-align: center;
+            }
+            #myLinks4 ul li button{
+                background: none;
+                border: none;
+                padding: 0.5em;
+                font-size: large;
+                
+                }
+            #myLinks4 ul li button a{
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 40px;
+            }
+        
+    
