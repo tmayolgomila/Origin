@@ -1,12 +1,11 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import '../styles/HomeStyles.css'
 import foto1 from '../img/img1.jpg'
 import Layout from './Layout'
 
 
 
-
-export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
+export const ButtonsHome = ({ handleStyleChange }) => {
 
   return(
     <div className='buttonThemes'>
@@ -28,7 +27,12 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
     setCurrentStyle(newStyle); 
   };
 
+  useEffect(() => {
+    document.body.className = '';
+    document.body.classList.add(currentStyle);
+  }, [currentStyle]);
 
+  console.log(currentStyle)
 
     return (
         
@@ -45,7 +49,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
               <button id='styleGuideButton'>Style Guide </button>
             </div>
     
-            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
+            <ButtonsHome handleStyleChange={handleStyleChange} />
 
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -64,7 +68,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
               <button id='styleGuideButton1'>Style Guide </button>
             </div>
 
-            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
+            <ButtonsHome handleStyleChange={handleStyleChange} />
 
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -83,7 +87,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
               <button id='styleGuideButton2'>Style Guide </button>
             </div>
          
-            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
+            <ButtonsHome handleStyleChange={handleStyleChange} />
     
             <div id='foto1Container'>
             <img id='foto1' src={foto1}/>
@@ -102,7 +106,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
               <button id='styleGuideButton3'>Style Guide </button>
             </div>
 
-            <ButtonsHome currentStyle={currentStyle} handleStyleChange={handleStyleChange} />
+            <ButtonsHome handleStyleChange={handleStyleChange} />
 
 
             <div id='foto1Container'>
@@ -114,6 +118,7 @@ export const ButtonsHome = ({ currentStyle, handleStyleChange }) => {
         } 
       })()}
               <Layout currentStyle={currentStyle} />
+        
       </div>
 
     )

@@ -5,6 +5,7 @@ import "../styles/LayoutStyles.css";
 
 const Layout = ({currentStyle}) => {
 
+
   const [isSearching, setIsSearching] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 420);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -34,34 +35,6 @@ const Layout = ({currentStyle}) => {
               <h1>Origin</h1>
             </header>
 
-            {(() => {
-        if (currentStyle == 'body-style-1') {
-          return (
-            <div
-              id="myLinks1"
-              style={{ display: isMobileNavOpen ? "block" : "none" }}
-            >
-              <ul>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/">Home</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/blogs">Blogs</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/contact">Contact</Link>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          )
-        } else if (currentStyle == 'body-style-2') {
-          return (
             <div
               id="myLinks"
               style={{ display: isMobileNavOpen ? "block" : "none" }}
@@ -84,89 +57,29 @@ const Layout = ({currentStyle}) => {
                 </li>
               </ul>
             </div>
-          )
-        } else if (currentStyle == 'body-style-3') {
-          return (
-            <div
-              id="myLinks3"
-              style={{ display: isMobileNavOpen ? "block" : "none" }}
-            >
-              <ul>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/">Home</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/blogs">Blogs</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/contact">Contact</Link>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          )
-        } else if (currentStyle == 'body-style-4') {
-          return (
-            <div
-              id="myLinks4"
-              style={{ display: isMobileNavOpen ? "block" : "none" }}
-            >
-              <ul>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/">Home</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/blogs">Blogs</Link>
-                  </button>
-                </li>
-                <li>
-                  <button onClick={toggleMobileNav}>
-                    <Link to="/contact">Contact</Link>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          )
-        } 
-      })()}
+         
 
 
             <div>
             {(() => {
 
-if (currentStyle == 'body-style-2') {
+if (currentStyle === 'body-style-2') {
   return (
 
     <button id="navButtonOpenMobile1" onClick={toggleMobileNav}>
               
-    {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+    {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline" id="icon-close"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
     
   </button>
-  )} else if (currentStyle == 'body-style-1' || currentStyle == 'body-style-3' || currentStyle == 'body-style-4'){
+  )} else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4'){
     return(
       <button id="navButtonOpenMobile" onClick={toggleMobileNav}>
               
-      {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+      {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline" id="icon-close"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
       
     </button>
     )
-  } else{
-    return(
-      <button id="navButtonOpenMobile1" onClick={toggleMobileNav}>
-              
-      {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
-      
-    </button>
-    )
-  }
+  } 
 
             })()}
 

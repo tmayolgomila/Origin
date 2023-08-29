@@ -1,208 +1,125 @@
-
-.mainNav{
+.mainNav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-#mainTitleContainer{
+
+#mainTitleContainer {
     display: flex;
     justify-content: left;
 }
 
-#mobileTitleContainer{
+#mobileTitleContainer {
     display: flex;
     justify-content: left;
 }
 
-#navButtonsContainer{
+#navButtonsContainer {
     display: flex;
     justify-content: right;
 }
 
-#navButtons button{
-border: none;
-padding: 0.5em;
+#navButtons button {
+    border: none;
+    padding: 0.5em;
 }
 
-.inputSearch{
-border:none;
-background: none;
-border-bottom: 2px solid white;
+.inputSearch {
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
 
 }
+
 #myLinks{
-margin-top: 3em;
-background: rgba(0, 0, 0, 0.88);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(-1px);
-height: 100vh;
+
+    background: black;
+    height: 100vh;
+    width: 100vw;
 
 }
-#myLinks ul{
 
-width: 100vw;
-margin-left: -3em;
+#myLinks ul {
+    margin-top:10em;
+    width: 100vw;
+    margin-left: -3em;
 
 }
-#myLinks ul li{
+
+#myLinks ul li {
     list-style: none;
     text-align: center;
 }
-#myLinks ul li button{
+
+#myLinks ul li button {
     background: none;
     border: none;
     padding: 0.5em;
     font-size: large;
-    
-    }
-#myLinks ul li button a{
-text-decoration: none;
-font-weight: bold;
-font-size: 40px;
-}
-.mobileNav{
-display: flex;
-justify-content: center;
 
 }
-#mobileTitleContainer{
+
+#myLinks ul li button a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.mobileNav {
+    display: flex;
+    justify-content: center;
+
+}
+
+#mobileTitleContainer {
     position: fixed;
     left: 1em;
     font-size: 20px;
 }
 
-#navButtonOpenMobile{
-border: none;
-background: none;
-position: absolute;
-right: 1em;
-margin-top: 1.3em;
-}
-
-#navButtonOpenMobile1{
+#navButtonOpenMobile {
     border: none;
     background: none;
     position: absolute;
     right: 1em;
     margin-top: 1.3em;
-    color: white;
+}
+
+#navButtonOpenMobile1 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 1em;
+    margin-top: 1.3em;
 }
 
 .mobileNavbar {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-  }
-  .webNavbar{
+}
+
+.webNavbar {
     justify-content: flex;
     padding: auto;
-  }
-  
-  .inputSearch {
+}
+
+.inputSearch {
     display: flex;
-    position: fixed; 
+    position: fixed;
     right: 2em;
 
-  }
+}
+#icon-close{
+    color: white;
+}
+#navButtonOpenMobile1{
 
-  #myLinks1{
-    margin-top: 3em;
-    background: rgba(255, 255, 255, 0.88);
-    border-radius: 16px;
-    backdrop-filter: blur(-1px);
-    height: 100vh;
-    
-    }
-    #myLinks1 ul{
-    
-    width: 100vw;
-    margin-left: -3em;
-    
-    }
-    #myLinks1 ul li{
-        list-style: none;
-        text-align: center;
-    }
-    #myLinks1 ul li button{
-        background: none;
-        border: none;
-        padding: 0.5em;
-        font-size: large;
-        
-        }
-    #myLinks1 ul li button a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 40px;
-    }
-
-
-    #myLinks3{
-        margin-top: 3em;
-        background: rgba(240, 240, 240, 0.88);
-        border-radius: 16px;
-        backdrop-filter: blur(-1px);
-        height: 100vh;
-        
-        }
-        #myLinks3 ul{
-        
-        width: 100vw;
-        margin-left: -3em;
-        
-        }
-        #myLinks3 ul li{
-            list-style: none;
-            text-align: center;
-        }
-        #myLinks3 ul li button{
-            background: none;
-            border: none;
-            padding: 0.5em;
-            font-size: large;
-            
-            }
-        #myLinks3 ul li button a{
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 40px;
-        }
-    
-        #myLinks4{
-            margin-top: 3em;
-            background: rgba(161, 207, 255, 0.88);
-            border-radius: 16px;
-            backdrop-filter: blur(-1px);
-            height: 100vh;
-            
-            }
-            #myLinks4 ul{
-            
-            width: 100vw;
-            margin-left: -3em;
-            
-            }
-            #myLinks4 ul li{
-                list-style: none;
-                text-align: center;
-            }
-            #myLinks4 ul li button{
-                background: none;
-                border: none;
-                padding: 0.5em;
-                font-size: large;
-                
-                }
-            #myLinks4 ul li button a{
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 40px;
-            }
-        
-    
+    color: rgb(255, 255, 255);
+}
