@@ -11,7 +11,7 @@ const footer = () => {
             </div>
 
             <div>
-              <a href="https://twitter.com" target="_blank">
+              <a>
                 <svg
                   viewBox="0 0 24 24"
                   width="24px"
@@ -26,7 +26,7 @@ const footer = () => {
                 </svg>
               </a>
 
-              <a href="https://youtube.com" target="_blank">
+              <a>
                 <svg viewBox="0 0 24 24" width="24px" height="24px">
                   <path
                     fill="currentColor"
@@ -35,7 +35,7 @@ const footer = () => {
                 </svg>
               </a>
 
-              <a href="https://github.com" target="_blank">
+              <a>
                 <svg viewBox="0 0 24 24" width="24px" height="24px">
                   <path
                     fill="#000"
