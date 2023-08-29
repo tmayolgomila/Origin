@@ -26,6 +26,7 @@
     border: none;
     padding: 0.5em;
     border-radius: 9px;
+    width:90%
 }
 .submitExplainContainer{
     border: none;
@@ -37,6 +38,18 @@
     background: black;
     color: white;
 }
-.recentPostList{
-    list-style: none;
+
+.recentPostContainer{
+    margin-top: 3em ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.fotoOriginTheme{
+    border-radius: 9px;
+    width:100%;
+    height: 100%;
+}
+.recentPostTitle{
+    font-size: 38px;
 }
