@@ -45,7 +45,7 @@ const Blogs = () => {
                 <h2 className="recentPostTitle">Recent Posts</h2>
                 <div>
                   <a>
-                    <img
+                    <img loading="lazy"
                       className="fotoOriginTheme"
                       src={originTheme}
                       alt="originTheme"
@@ -61,7 +61,7 @@ const Blogs = () => {
                 </div>
                 <div>
                   <a>
-                    <img
+                    <img loading="lazy"
                       className="fotoOriginTheme"
                       src={workRemote}
                       alt="originThemeWork"
@@ -75,7 +75,7 @@ const Blogs = () => {
                 </div>
                 <div>
                   <a>
-                    <img
+                    <img loading="lazy"
                       className="fotoOriginTheme"
                       src={workHibrid}
                       alt="originThemeHibrid"

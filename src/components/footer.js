@@ -16,7 +16,7 @@ const footer = () => {
                   viewBox="0 0 24 24"
                   width="24px"
                   height="24px"
-                  class="astro-A52JHQYS"
+                  className="astro-A52JHQYS"
                   astro-icon="mdi:twitter"
                 >
                   <path
