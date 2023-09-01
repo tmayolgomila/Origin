@@ -1,9 +1,14 @@
 import React, {useState, useEffect} from 'react'
 import '../styles/HomeStyles.css'
 import foto1 from '../img/img1.jpg'
+import fotoClassic from '../img/classic.jpg'
+import fotoDark from '../img/dark.jpg'
+import fotoSand from '../img/sand.jpg'
+import fotoOcean from '../img/ocean.jpg'
 import Layout from './Layout'
 import HomeContent from '../components/homeContent'
 import Footer from '../components/footer'
+import LandingPagesContent from '../components/landingPagesContent'
 
 
 
@@ -49,8 +54,10 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <ButtonsHome handleStyleChange={handleStyleChange} />
 
             <div className='fotoContainer'>
-            <img className='foto' src={foto1}/>
+            <img className='foto' src={fotoClassic}/>
             </div>
+
+            <LandingPagesContent />
             
             <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
 
@@ -65,8 +72,10 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <ButtonsHome handleStyleChange={handleStyleChange} />
 
             <div className='fotoContainer'>
-            <img className='foto' src={foto1}/>
+            <img className='foto' src={fotoDark}/>
             </div>
+
+            <LandingPagesContent />
 
             <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
             
@@ -81,8 +90,10 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <ButtonsHome handleStyleChange={handleStyleChange} />
     
             <div className='fotoContainer'>
-            <img className='foto' src={foto1}/>
+            <img className='foto' src={fotoSand}/>
             </div>
+
+            <LandingPagesContent />
 
             <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
             
@@ -97,8 +108,10 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <ButtonsHome handleStyleChange={handleStyleChange} />
 
             <div className='fotoContainer'>
-            <img className='foto' src={foto1}/>
+            <img className='foto' src={fotoOcean}/>
             </div>
+
+            <LandingPagesContent />
 
             <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
             
