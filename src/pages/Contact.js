@@ -5,46 +5,40 @@ import Layout from './Layout'
 
  const Contact = () => {
 
-  const [currentStyle, setCurrentStyle] = useState('body-style-1');
 
 
     return (
-        
       <div>
       {(() => {
-        if (currentStyle === 'body-style-1') {
+        if (document.body.classList.value === "body-style-1") {
           return (
-            <div>
-
-            style1
-          </div>
-          )
-        } else if (currentStyle === 'body-style-2') {
+            <>
+                  style 1
+            </>
+          );
+        } else if (document.body.classList.value === "body-style-2") {
           return (
-            <div>
-style2
-          </div>
-          )
-        } else if (currentStyle === 'body-style-3') {
+            <>
+                  style 2 
+            </>
+          );
+        } else if (document.body.classList.value === "body-style-3") {
           return (
-            <div>
-style 3
-          </div>
-          )
-        } else if (currentStyle === 'body-style-4') {
+            <>
+           style 3
+            </>
+          );
+        } else if (document.body.classList.value === "body-style-4") {
           return (
-            <div>
-style4
-            
-          </div>
-          )
-        } 
+            <>
+           style 4
+            </>
+          );
+        }
       })()}
-      
-       <Layout currentStyle={currentStyle} />
-       
 
-      </div>
+      <Layout currentStyle={document.body.classList.value} />
+    </div>
 
     )
   
