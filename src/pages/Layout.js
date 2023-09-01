@@ -56,9 +56,7 @@ const Layout = ({currentStyle}) => {
                   </button>
                 </li>
               </ul>
-            </div>
-         
-
+            </div>       
 
             <div>
             {(() => {
@@ -68,7 +66,7 @@ if (currentStyle === 'body-style-2') {
 
     <button id="navButtonOpenMobile1" onClick={toggleMobileNav}>
               
-    {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline" id="icon-close"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
+    {isMobileNavOpen ? ( <ion-icon size="large" name="close-outline" id="icon-close1"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
     
   </button>
   )} else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4'){
