@@ -16,17 +16,17 @@ const LandingPagesContent = () => {
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <h3>Landing Page 2</h3>
+            <div className="landingPageContainer">
+                <div className="landingContainerImage">
+                    <h3 className="landingTitle">Landing Page 2</h3>
                     <img className="fotoLanding" src={playa2} />
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <h3>Landing Page 3</h3>
-                    <img className="fotoLanding"  src={playa3} />
+            <div className="landingPageContainer">
+                <div className="landingContainerImage">
+                    <h3 className="landingTitle">Landing Page 3</h3>
+                    <img className="fotoLanding" src={playa3} />
                 </div>
             </div>
 
