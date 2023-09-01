@@ -6,7 +6,7 @@
 }
 
 .containerContentHome{
-    padding: 2em;
+    padding: 1em;
 }
 
 .containerHomeTitle{
@@ -50,7 +50,7 @@
     align-items: center;
     padding: 0.5em;
     margin-bottom: 2em;
-    padding: 2em;
+    padding: 1em;
 }
 
 .foto{
@@ -69,10 +69,10 @@
 
 .getStartedButton{
     background:black;
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border:none;
-    border-radius: 9px;
+    border-radius: 20px;
     margin-right: 1em;
     color:white;
 }
@@ -81,15 +81,15 @@
     background: none;
     border: none;
     color: black;
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
 }
 .getStartedButton1{
     background:rgb(255, 255, 255);
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border:none;
-    border-radius: 9px;
+    border-radius: 20px;
     margin-right: 1em;
 }
 
@@ -97,15 +97,15 @@
     background: none;
     border: none;
     color: white;
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
 }
 .getStartedButton2{
     background:black;
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border:none;
-    border-radius: 9px;
+    border-radius: 20px;
     margin-right: 1em;
     color: white;
 }
@@ -114,15 +114,15 @@
     background: none;
     border: none;
     color: rgb(0, 0, 0);
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
 }
 .getStartedButton3{
     background:black;
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border:none;
-    border-radius: 9px;
+    border-radius: 20px;
     margin-right: 1em;
     color: white;
 }
@@ -131,8 +131,8 @@
     background: none;
     border: none;
     color: rgb(0, 0, 0);
-    height: 34px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
 }
 
 .buttonThemes{
