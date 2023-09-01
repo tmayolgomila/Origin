@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
-import '../styles/HomeStyles.css'
 import Layout from './Layout'
 
 
- const Contact = () => {
+ const About = () => {
 
   const [currentStyle, setCurrentStyle] = useState('body-style-1');
 
@@ -50,4 +49,4 @@ style4
   
  
 }
-export default Contact;
+export default About;

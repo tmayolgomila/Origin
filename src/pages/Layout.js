@@ -52,6 +52,11 @@ const Layout = ({currentStyle}) => {
                 </li>
                 <li>
                   <button onClick={toggleMobileNav}>
+                    <Link to="/about">About</Link>
+                  </button>
+                </li>
+                <li>
+                  <button onClick={toggleMobileNav}>
                     <Link to="/contact">Contact</Link>
                   </button>
                 </li>
@@ -99,6 +104,11 @@ if (currentStyle === 'body-style-2') {
                 <button>
                   <Link to="/blogs">Blogs</Link>
                 </button>
+                <li>
+                  <button onClick={toggleMobileNav}>
+                    <Link to="/about">About</Link>
+                  </button>
+                </li>
                 <button>
                   <Link to="/contact">Contact</Link>
                 </button>
