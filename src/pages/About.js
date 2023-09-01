@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Layout from './Layout'
+import '../styles/AboutStyles.css'
 
 
  const About = () => {
@@ -10,25 +11,33 @@ import Layout from './Layout'
           if (document.body.classList.value === "body-style-1") {
             return (
               <>
-                    style 1
+                  <div className='containerAbout'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
               </>
             );
           } else if (document.body.classList.value === "body-style-2") {
             return (
               <>
-                    style 2 
+                  <div className='containerAbout'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
               </>
             );
           } else if (document.body.classList.value === "body-style-3") {
             return (
               <>
-             style 3
+                  <div className='containerAbout'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
               </>
             );
           } else if (document.body.classList.value === "body-style-4") {
             return (
               <>
-             style 4
+                  <div className='containerAbout'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
               </>
             );
           }

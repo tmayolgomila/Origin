@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import '../styles/HomeStyles.css'
+import '../styles/ContactStyles.css'
 import Layout from './Layout'
 
 
@@ -13,25 +13,33 @@ import Layout from './Layout'
         if (document.body.classList.value === "body-style-1") {
           return (
             <>
-                  style 1
+                  <div className='containerContact'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
             </>
           );
         } else if (document.body.classList.value === "body-style-2") {
           return (
             <>
-                  style 2 
+                  <div className='containerContact'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
             </>
           );
         } else if (document.body.classList.value === "body-style-3") {
           return (
             <>
-           style 3
+                  <div className='containerContact'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
             </>
           );
         } else if (document.body.classList.value === "body-style-4") {
           return (
             <>
-           style 4
+                  <div className='containerContact'>
+                    We're currently working on this page, please excuse any inconvenience.
+                  </div>
             </>
           );
         }
