@@ -3,6 +3,7 @@ import '../styles/HomeStyles.css'
 import foto1 from '../img/img1.jpg'
 import Layout from './Layout'
 import HomeContent from '../components/homeContent'
+import Footer from '../components/footer'
 
 
 
@@ -51,6 +52,8 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={foto1}/>
             </div>
             
+            <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+
             </div>
           )
         } else if (currentStyle === 'body-style-2') {
@@ -64,6 +67,8 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <div className='fotoContainer'>
             <img className='foto' src={foto1}/>
             </div>
+
+            <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
             
           </div>
           )
@@ -78,6 +83,8 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <div className='fotoContainer'>
             <img className='foto' src={foto1}/>
             </div>
+
+            <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
             
           </div>
           )
@@ -92,6 +99,8 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <div className='fotoContainer'>
             <img className='foto' src={foto1}/>
             </div>
+
+            <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
             
           </div>
           )

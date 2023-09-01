@@ -10,7 +10,7 @@
 }
 
 .homeText1{
-    color: rgb(30, 187, 187);
+    color: black;
 }
 
 .homeText2{
@@ -18,7 +18,7 @@
 }
 
 .homeText3{
-    color: rgb(130, 139, 0);
+    color: rgb(227, 138, 32);
 }
 
 .homeText4{
@@ -45,6 +45,7 @@
     justify-content: center;
     align-items: center;
     padding: 0.5em;
+    margin-bottom: 2em;
 }
 
 .foto{
@@ -62,7 +63,7 @@
 }
 
 .getStartedButton{
-    background: rgb(30, 187, 187);
+    background:black;
     height: 34px;
     width: 100px;
     border:none;
@@ -79,13 +80,12 @@
     width: 100px;
 }
 .getStartedButton1{
-    background:rgb(165, 0, 202);
+    background:rgb(255, 255, 255);
     height: 34px;
     width: 100px;
     border:none;
     border-radius: 9px;
     margin-right: 1em;
-    color: white;
 }
 
 .styleGuideButton1{
@@ -96,7 +96,7 @@
     width: 100px;
 }
 .getStartedButton2{
-    background:rgb(130, 139, 0);
+    background:black;
     height: 34px;
     width: 100px;
     border:none;
@@ -113,7 +113,7 @@
     width: 100px;
 }
 .getStartedButton3{
-    background:rgb(21, 86, 172);
+    background:black;
     height: 34px;
     width: 100px;
     border:none;
