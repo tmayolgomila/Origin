@@ -3,13 +3,7 @@
     margin: 1em;
     margin-top: 6em;
 }
-.originBlog{
-    padding: 2em;
-    border-radius: 9px;
-}
-#originBlog{
-    background: rgb(212, 212, 212);;
-}
+
 .explainContainer{
     display: block;
     justify-content: center;
@@ -17,6 +11,7 @@
 }
 .originBlogTitle{
     font-size: 41px;
+   
 }
 .containerInputExplainContainer{
     margin-top: 1em;
@@ -28,15 +23,91 @@
     border-radius: 9px;
     width:90%
 }
+/*estilos body-style-1*/
+.originBlog{
+    padding: 2em;
+    border-radius: 9px;
+    background: rgb(242, 242, 242);
+}
 .submitExplainContainer{
     border: none;
     width: 140px;
     height: 40px;
     border-radius: 9px;
-}
-#submitExplainContainerBlack{
     background: black;
     color: white;
+}
+.footerContainer{
+    padding: 1em;
+    background: rgb(242, 242, 242);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/*estilos body-style-2*/
+.originBlogDarkTheme{
+    padding: 2em;
+    border-radius: 9px;
+    background: rgb(51, 51, 51);
+}
+.submitExplainContainerDarkTheme{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.footerContainerDarkTheme{
+    padding: 1em;
+    background: rgb(51, 51, 51);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/*estilos body-style-3*/
+
+
+.originBlogEarthTheme{
+    padding: 2em;
+    border-radius: 9px;
+    background: rgb(255, 236, 217);
+}
+.submitExplainContainerEarthTheme{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 9px;
+    background: rgb(227, 138, 32);
+    color: white;
+}
+.footerContainerEarthTheme{
+    padding: 1em;
+    background: rgb(255, 236, 217);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+/*estilos body-style-4*/
+.originBlogOceanTheme{
+    padding: 2em;
+    border-radius: 9px;
+    background: rgb(238, 241, 243);
+}
+.submitExplainContainerOceanTheme{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 9px;
+    background: rgb(21, 86, 172);
+    color: white;
+}
+.footerContainerOceanTheme{
+    padding: 1em;
+    background: rgb(238, 241, 243);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .recentPostContainer{
@@ -52,4 +123,12 @@
 }
 .recentPostTitle{
     font-size: 38px;
+}
+.footerTitle{
+    font-weight: bold;
+    font-size: large;
+}
+
+img{
+    filter: blur(500px);
 }

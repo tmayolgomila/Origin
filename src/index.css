@@ -31,13 +31,13 @@ code {
 }
 
 .body-style-3 {
-  background: #f0f0f0;
-  color: #333;
+  background: rgb(255, 255, 254);
+  color: rgb(94, 69, 54);
   height: 100vh;
 }
 
 .body-style-4 {
-  background: #a1cfff;
+  background: white;
   color: rgb(0, 0, 0);
   height: 100vh;
 }
