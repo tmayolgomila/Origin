@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Layout from './Layout'
 import '../styles/AboutStyles.css'
+import AboutContent from '../components/aboutContent'
 
 
  const About = () => {
@@ -12,7 +13,7 @@ import '../styles/AboutStyles.css'
             return (
               <>
                   <div className='containerAbout'>
-                    We're currently working on this page, please excuse any inconvenience.
+                  <AboutContent />
                   </div>
               </>
             );
@@ -20,7 +21,8 @@ import '../styles/AboutStyles.css'
             return (
               <>
                   <div className='containerAbout'>
-                    We're currently working on this page, please excuse any inconvenience.
+                 
+                  <AboutContent />
                   </div>
               </>
             );
@@ -28,7 +30,9 @@ import '../styles/AboutStyles.css'
             return (
               <>
                   <div className='containerAbout'>
-                    We're currently working on this page, please excuse any inconvenience.
+
+
+                  <AboutContent />
                   </div>
               </>
             );
@@ -36,8 +40,8 @@ import '../styles/AboutStyles.css'
             return (
               <>
                   <div className='containerAbout'>
-                    We're currently working on this page, please excuse any inconvenience.
-                  </div>
+                  <AboutContent />
+                    </div>
               </>
             );
           }
