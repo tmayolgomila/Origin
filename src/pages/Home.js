@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import '../styles/HomeStyles.css'
-import foto1 from '../img/img1.jpg'
 import fotoClassic from '../img/classic.jpg'
 import fotoDark from '../img/dark.jpg'
 import fotoSand from '../img/sand.jpg'
@@ -57,7 +56,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoClassic}/>
             </div>
 
-            <LandingPagesContent />
+            <LandingPagesContent className="landingContainerClassic" />
             
             <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
 
@@ -75,7 +74,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoDark}/>
             </div>
 
-            <LandingPagesContent />
+            <LandingPagesContent className="landingContainerDark" />
 
             <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
             
@@ -93,7 +92,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoSand}/>
             </div>
 
-            <LandingPagesContent />
+            <LandingPagesContent className="landingContainerEarth" />
 
             <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
             
@@ -111,7 +110,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoOcean}/>
             </div>
 
-            <LandingPagesContent />
+            <LandingPagesContent className="landingContainerOcean" />
 
             <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
             
