@@ -1,12 +1,12 @@
 import React from "react";
 import '../styles/ContactStyles.css'
 
-const ContactContent = () => {
+const ContactContent = ({contactUsContainer, submitContactButton}) => {
     return (
         <>
             <div className='containerContact'>
                 <section>
-                    <div>
+                    <div className={contactUsContainer}>
                         <h1>Contact Us</h1>
                         <p>
                             This is a contact form using Origin's form components to create a
@@ -16,37 +16,28 @@ const ContactContent = () => {
                         </p>
                         <div>
                             <p>
-                                <em><a>(800) 867-5309</a></em><em><a>tmayolgomila@gmail.com</a></em>
+                                <a>(800) 867-5309</a><a>tmayolgomila@gmail.com</a>
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div className="containerFormContact">
                         <form>
-                            <div>
-                                <label>Name</label>
-                                <input />
-                            </div>
+                            
+                       <div className="inputContainer">
+                        <input  placeholder="Name" className="inputNameForm"/>
+                       </div>
+
+                       <div className="inputContainer">
+                        <input  placeholder="Email" className="inputNameForm"/>
+                       </div>
+
+                       <div className="inputContainer">
+                        <input  placeholder="Your message here..." className="inputMessageForm"/>
+                       </div>
 
 
-                            <div>
-                                <label>Email</label>
-                                <input />
-                            </div>
 
-                            <div>
-                                <label>How Did You Hear About Us?</label>
-                                <select>
-                                    <option disabled="" selected="" value="">==SELECT AN OPTION==</option>
-                                    <option>Google Search</option><option>Social Media</option><option value="Email">Email</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label>Message</label>
-                                <textarea placeholder="Your message here..."></textarea>
-                            </div>
-
-
-                            <button>Submit</button>
+                        <button className={submitContactButton}>Submit</button>
 
 
                         </form>

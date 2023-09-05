@@ -20,7 +20,6 @@ const Layout = ({currentStyle}) => {
 
   const toggleSearch = () => {
     setIsSearching(!isSearching);
-    console.log(isSearching);
   };
 
   const toggleMobileNav = () => setIsMobileNavOpen(!isMobileNavOpen);

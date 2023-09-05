@@ -38,7 +38,6 @@ export const ButtonsHome = ({ handleStyleChange }) => {
     document.body.classList.add(currentStyle);
   }, [currentStyle]);
 
-  console.log(currentStyle)
 
     return (
         
