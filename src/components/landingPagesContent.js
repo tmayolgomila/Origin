@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/LandingStyles.css'
+import '../styles/landingStyles.css'
 import playa1 from '../img/playa1.jpg'
 import playa2 from '../img/playa2.jpg'
 import playa3 from '../img/playa3.jpg'
