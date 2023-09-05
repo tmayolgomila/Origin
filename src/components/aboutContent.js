@@ -18,26 +18,26 @@ function AboutContent({fotoAbout}) {
             <img className='fotoAbout' src={fotoAbout}/>
       </div>
       <h3>Why choose us?</h3>
-      <ol>
-        <li>
+      <div>
+        <p>
           <strong>Tailored Solutions:</strong> We believe that one size doesn't fit all. Each project is unique, and we customize our services to meet your specific needs and goals. Whether you're a startup looking to make a splash or an established business seeking a digital makeover, we've got you covered.
-        </li>
-        <li>
+        </p>
+        <p>
           <strong>Experienced Team:</strong> Our team consists of seasoned professionals with years of experience in web design, development, SEO, and digital marketing. We stay updated with the latest industry trends to ensure that your project stays ahead of the curve.
-        </li>
-        <li>
+        </p>
+        <p>
           <strong>Client-Centric Approach:</strong> Your satisfaction is our priority. We work closely with you to understand your vision, provide regular updates, and welcome your feedback throughout the process. We believe in open communication and transparency.
-        </li>
-        <li>
+        </p>
+        <p>
           <strong>Results-Driven:</strong> We measure our success by your success. Whether it's increased website traffic, higher conversion rates, or enhanced brand recognition, we are committed to delivering measurable results that make a difference.
-        </li>
-        <li>
+        </p>
+        <p>
           <strong>Creative Excellence:</strong> We love to think outside the box. Our creative minds thrive on challenges, and we take pride in crafting visually stunning, user-friendly websites and engaging content that leave a lasting impression.
-        </li>
-        <li>
+        </p>
+        <p>
           <strong>Affordable Pricing:</strong> Quality doesn't have to break the bank. We offer competitive pricing options to ensure that our services are accessible to businesses of all sizes.
-        </li>
-      </ol>
+        </p>
+      </div>
       <p>
         So, whether you're embarking on a new business journey or seeking to revamp your online presence, Origin is here to empower your brand and help you succeed in the digital world. Let's work together to turn your dreams into a reality.
       </p>
