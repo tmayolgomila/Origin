@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../styles/ContactStyles.css'
 import Layout from './Layout'
+import ContactContent from '../components/contactContent'
 
 
  const Contact = () => {
@@ -13,33 +14,25 @@ import Layout from './Layout'
         if (document.body.classList.value === "body-style-1") {
           return (
             <>
-                  <div className='containerContact'>
-                    We're currently working on this page, please excuse any inconvenience.
-                  </div>
+                <ContactContent />
             </>
           );
         } else if (document.body.classList.value === "body-style-2") {
           return (
             <>
-                  <div className='containerContact'>
-                    We're currently working on this page, please excuse any inconvenience.
-                  </div>
+                  <ContactContent />
             </>
           );
         } else if (document.body.classList.value === "body-style-3") {
           return (
             <>
-                  <div className='containerContact'>
-                    We're currently working on this page, please excuse any inconvenience.
-                  </div>
+                   <ContactContent />
             </>
           );
         } else if (document.body.classList.value === "body-style-4") {
           return (
             <>
-                  <div className='containerContact'>
-                    We're currently working on this page, please excuse any inconvenience.
-                  </div>
+                  <ContactContent />
             </>
           );
         }
