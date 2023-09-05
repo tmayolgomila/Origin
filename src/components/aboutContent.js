@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/AboutStyles.css'
 
-function AboutContent() {
+function AboutContent({fotoAbout}) {
   return (
     <div>
       <h2>Welcome to Origin!</h2>
@@ -13,6 +14,9 @@ function AboutContent() {
       <p>
         What sets us apart? It's our unwavering dedication to creativity, innovation, and excellence. We don't just create websites; we craft digital experiences that captivate your audience and drive results. Our goal is to make your brand shine in the digital landscape, ensuring that your message reaches your target audience effectively.
       </p>
+      <div className='fotoContainerAbout'>
+            <img className='fotoAbout' src={fotoAbout}/>
+      </div>
       <h3>Why choose us?</h3>
       <ol>
         <li>

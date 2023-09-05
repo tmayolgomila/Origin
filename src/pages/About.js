@@ -2,6 +2,10 @@ import React, {useState} from 'react'
 import Layout from './Layout'
 import '../styles/AboutStyles.css'
 import AboutContent from '../components/aboutContent'
+import fotoClassic from '../img/classic.jpg'
+import fotoDark from '../img/dark.jpg'
+import fotoEarth from '../img/sand.jpg'
+import fotoOcean from '../img/ocean.jpg'
 
 
  const About = () => {
@@ -13,7 +17,7 @@ import AboutContent from '../components/aboutContent'
             return (
               <>
                   <div className='containerAbout'>
-                  <AboutContent />
+                  <AboutContent fotoAbout={fotoClassic} />
                   </div>
               </>
             );
@@ -22,7 +26,7 @@ import AboutContent from '../components/aboutContent'
               <>
                   <div className='containerAbout'>
                  
-                  <AboutContent />
+                  <AboutContent fotoAbout={fotoDark} />
                   </div>
               </>
             );
@@ -32,7 +36,7 @@ import AboutContent from '../components/aboutContent'
                   <div className='containerAbout'>
 
 
-                  <AboutContent />
+                  <AboutContent fotoAbout={fotoEarth} />
                   </div>
               </>
             );
@@ -40,7 +44,7 @@ import AboutContent from '../components/aboutContent'
             return (
               <>
                   <div className='containerAbout'>
-                  <AboutContent />
+                  <AboutContent fotoAbout={fotoOcean} />
                     </div>
               </>
             );

@@ -5,3 +5,19 @@
     margin-top: 4em;
     padding: 1em;
 }
+
+.fotoContainerAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.fotoAbout{
+   border-radius: 9px;
+   width:100%;
+   height: 100%;
+   max-height: 80vh;
+}
