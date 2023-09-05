@@ -3,7 +3,7 @@ import '../styles/AboutStyles.css'
 
 function AboutContent({fotoAbout}) {
   return (
-    <div>
+    <div className='containerAbout'>
       <h2>Welcome to Origin!</h2>
       <p>
         At Origin, we are passionate about bringing your vision to life. We understand that in today's digital age, a compelling online presence is essential for the success of any business or marketing campaign. That's where we come in.

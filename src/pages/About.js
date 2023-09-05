@@ -6,6 +6,7 @@ import fotoClassic from '../img/classic.jpg'
 import fotoDark from '../img/dark.jpg'
 import fotoEarth from '../img/sand.jpg'
 import fotoOcean from '../img/ocean.jpg'
+import Footer from '../components/footer'
 
 
  const About = () => {
@@ -16,36 +17,38 @@ import fotoOcean from '../img/ocean.jpg'
           if (document.body.classList.value === "body-style-1") {
             return (
               <>
-                  <div className='containerAbout'>
+                  
                   <AboutContent fotoAbout={fotoClassic} />
-                  </div>
+                  <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+          
               </>
             );
           } else if (document.body.classList.value === "body-style-2") {
             return (
               <>
-                  <div className='containerAbout'>
+                
                  
                   <AboutContent fotoAbout={fotoDark} />
-                  </div>
+                  <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
+               
               </>
             );
           } else if (document.body.classList.value === "body-style-3") {
             return (
               <>
-                  <div className='containerAbout'>
-
-
+              
                   <AboutContent fotoAbout={fotoEarth} />
-                  </div>
+                  <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
+              
               </>
             );
           } else if (document.body.classList.value === "body-style-4") {
             return (
               <>
-                  <div className='containerAbout'>
+                 
                   <AboutContent fotoAbout={fotoOcean} />
-                    </div>
+                  <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
+                  
               </>
             );
           }
