@@ -47,6 +47,8 @@ export const ButtonsHome = ({ handleStyleChange }) => {
           return (
             <div className='containerHome'>
 
+               <Layout currentStyle={currentStyle}  originTitle="originTitleClassic" /> 
+
             <HomeContent classNameHomeText="homeText1" classNameReactLink="reactLink1" classNameGetStartedButton="getStartedButton" classNameStyleGuideButton="styleGuideButton"/>
     
             <ButtonsHome handleStyleChange={handleStyleChange} />
@@ -64,7 +66,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
         } else if (currentStyle === 'body-style-2') {
           return (
             <div className='containerHome'>
-
+<Layout currentStyle={currentStyle}  originTitle="originTitleDark"/>
             <HomeContent classNameHomeText="homeText2" classNameReactLink="reactLink" classNameGetStartedButton="getStartedButton1" classNameStyleGuideButton="styleGuideButton1"/>
 
             <ButtonsHome handleStyleChange={handleStyleChange} />
@@ -82,7 +84,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
         } else if (currentStyle === 'body-style-3') {
           return (
             <div className='containerHome'>
-            
+             <Layout currentStyle={currentStyle}  originTitle="originTitleEarth"/>
             <HomeContent classNameHomeText="homeText3" classNameReactLink="reactLink" classNameGetStartedButton="getStartedButton2" classNameStyleGuideButton="styleGuideButton2"/>
          
             <ButtonsHome handleStyleChange={handleStyleChange} />
@@ -100,7 +102,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
         } else if (currentStyle === 'body-style-4') {
           return (
             <div className='containerHome'>
-            
+             <Layout currentStyle={currentStyle}  originTitle="originTitleOcean"/>
             <HomeContent classNameHomeText="homeText4" classNameReactLink="reactLink" classNameGetStartedButton="getStartedButton3" classNameStyleGuideButton="styleGuideButton3"/>
 
             <ButtonsHome handleStyleChange={handleStyleChange} />
@@ -117,7 +119,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
           )
         } 
       })()}
-              <Layout currentStyle={currentStyle} />
+            
         
       </div>
 

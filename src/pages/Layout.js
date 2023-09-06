@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import "../styles/LayoutStyles.css";
 
 
-const Layout = ({currentStyle}) => {
+const Layout = ({currentStyle, originTitle}) => {
 
 
   const [isSearching, setIsSearching] = useState(false);
@@ -31,7 +31,11 @@ const Layout = ({currentStyle}) => {
         <section className="mobileNavbar">
           <nav className="mobileNav">
             <header id="mobileTitleContainer">
-              <h1>Origin</h1>
+
+            <Link to="/" className={originTitle}>
+             <h1>Origin</h1>
+            </Link>
+
             </header>
 
             <div
