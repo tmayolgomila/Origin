@@ -66,7 +66,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
         } else if (currentStyle === 'body-style-2') {
           return (
             <div className='containerHome'>
-<Layout currentStyle={currentStyle}  originTitle="originTitleDark"/>
+            <Layout currentStyle={currentStyle}  originTitle="originTitleDark"/>
             <HomeContent classNameHomeText="homeText2" classNameReactLink="reactLink" classNameGetStartedButton="getStartedButton1" classNameStyleGuideButton="styleGuideButton1"/>
 
             <ButtonsHome handleStyleChange={handleStyleChange} />

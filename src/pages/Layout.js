@@ -32,9 +32,9 @@ const Layout = ({currentStyle, originTitle}) => {
           <nav className="mobileNav">
             <header id="mobileTitleContainer">
 
-            <Link to="/" className={originTitle}>
-             <h1>Origin</h1>
-            </Link>
+           
+            <h1 > <Link to="/" className={originTitle}>Origin </Link></h1>
+           
 
             </header>
 
@@ -96,7 +96,7 @@ if (currentStyle === 'body-style-2') {
       ) : (
         <section className="webNavbar">
           <nav className="mainNav">
-            <header id="mainTitleContainer">
+            <header>
               <h1>Origin</h1>
             </header>
             <div id="navButtonsContainer">

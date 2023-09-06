@@ -10,10 +10,7 @@
     justify-content: left;
 }
 
-#mobileTitleContainer {
-    display: flex;
-    justify-content: left;
-}
+
 
 #navButtonsContainer {
     display: flex;
@@ -83,6 +80,7 @@
     position: fixed;
     left: 1em;
     font-size: 20px;
+    text-decoration: none;
 }
 
 #navButtonOpenMobile {
@@ -134,8 +132,9 @@
 }
 .originTitleClassic{
     color: black;
-    text-decoration: none;
+    text-decoration: none !important;
 }
+
 .originTitleDark{
     color: white;
     text-decoration: none;
