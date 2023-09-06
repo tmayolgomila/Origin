@@ -9,8 +9,8 @@
     height: 100%;
     transition: transform 0.3s ease; 
     -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
--moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
  }
 
 
@@ -26,3 +26,19 @@ box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
     text-align: center;
  }
 
+.linkLandingClassic{
+    text-decoration: none;
+    color: black;
+}
+.linkLandingDark{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.linkLandingEarth{
+    text-decoration: none;
+    color: rgb(94, 69, 54);
+}
+.linkLandingOcean{
+    text-decoration: none;
+    color: black;
+}

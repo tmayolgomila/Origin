@@ -55,7 +55,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoClassic}/>
             </div>
 
-            <LandingPagesContent className="landingContainerClassic" />
+            <LandingPagesContent className="landingContainerClassic" classNameLink="linkLandingClassic" />
             
             <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
 
@@ -73,7 +73,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoDark}/>
             </div>
 
-            <LandingPagesContent className="landingContainerDark" />
+            <LandingPagesContent className="landingContainerDark"  classNameLink="linkLandingDark"/>
 
             <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
             
@@ -91,7 +91,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoSand}/>
             </div>
 
-            <LandingPagesContent className="landingContainerEarth" />
+            <LandingPagesContent className="landingContainerEarth" classNameLink="linkLandingEarth"/>
 
             <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
             
@@ -109,7 +109,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
             <img className='foto' src={fotoOcean}/>
             </div>
 
-            <LandingPagesContent className="landingContainerOcean" />
+            <LandingPagesContent className="landingContainerOcean" classNameLink="linkLandingOcean"/>
 
             <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
             
