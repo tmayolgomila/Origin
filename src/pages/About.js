@@ -13,6 +13,7 @@ import Footer from '../components/footer'
 
     return (
         <div>
+                      <Layout currentStyle={document.body.classList.value} /> 
         {(() => {
           if (document.body.classList.value === "body-style-1") {
             return (
@@ -52,20 +53,9 @@ import Footer from '../components/footer'
           }
         })()}
           
-            {(() => {
-        if (window.innerWidth < 420) {
-          return (
-            <Layout currentStyle={document.body.classList.value} /> 
-          )
-        } else  {
-          return (
-           <>
-           </>
-          )
-        }
-          
-        
-      })()}
+
+
+
 
       </div>
 

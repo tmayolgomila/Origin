@@ -42,6 +42,7 @@ export const ButtonsHome = ({ handleStyleChange }) => {
     return (
         
       <div>
+                 <Layout currentStyle={currentStyle} /> 
       {(() => {
         if (currentStyle === 'body-style-1') {
           return (
@@ -119,21 +120,11 @@ export const ButtonsHome = ({ handleStyleChange }) => {
           )
         } 
       })()}
-            
-            {(() => {
-        if (window.innerWidth < 420) {
-          return (
-            <Layout currentStyle={currentStyle} /> 
-          )
-        } else  {
-          return (
-           <>
-           </>
-          )
-        }
+
+   
+ 
           
-        
-      })()}
+
 
 
          

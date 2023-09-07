@@ -7,6 +7,8 @@ import BlogsContent from "../components/blogsContent";
 const Blogs = () => {
   return (
     <div>
+      <Layout currentStyle={document.body.classList.value} /> 
+
       {(() => {
         if (document.body.classList.value === "body-style-1") {
           return (
@@ -43,20 +45,8 @@ const Blogs = () => {
         }
       })()}
 
-{(() => {
-        if (window.innerWidth < 420) {
-          return (
-            <Layout currentStyle={document.body.classList.value} /> 
-          )
-        } else  {
-          return (
-           <>
-           </>
-          )
-        }
-          
-        
-      })()}
+
+            
     </div>
   );
 };

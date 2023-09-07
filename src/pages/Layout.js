@@ -35,11 +35,11 @@ const Layout = ({ currentStyle }) => {
 
                 if (currentStyle === 'body-style-2') {
                   return (
-                    <Link to="/">  <img src={Logo2} width="50" /></Link>
+                    <Link to="/">  <img src={Logo2} width="40" /></Link>
                   )
                 } else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4') {
                   return (
-                    <Link to="/">  <img src={Logo} width="50" /></Link>
+                    <Link to="/">  <img src={Logo} width="40" /></Link>
                   )
                 }
 
@@ -105,9 +105,34 @@ const Layout = ({ currentStyle }) => {
         </section>
       ) : (
         <section className="webNavbar">
-          <header>
-            <h1>Origin</h1>
-          </header>
+          
+            
+            {(() => {
+
+if (currentStyle === 'body-style-2') {
+  return (
+    <div className="originTitleDark">
+    <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+        <img src={Logo2} width="60" alt="Logo de Origin"/>
+        <h1>rigin</h1>
+    </Link>
+</div>
+  )
+} else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4') {
+  return (
+    <div className="originTitleClassic">
+    <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+        <img src={Logo} width="60" alt="Logo de Origin"/>
+        <h1>rigin</h1>
+    </Link>
+</div>
+
+    
+  )
+}
+
+})()}
+          
           <nav className="mainNav">
             <div className="navButtonsContainer">
               <div className="navButtons">
@@ -122,10 +147,13 @@ const Layout = ({ currentStyle }) => {
                     <Link to="/about">About</Link>
                   </button>
                 </li>
+                <li>
                 <button>
                   <Link to="/contact">Contact</Link>
                 </button>
 
+                </li>
+           
               </div>
             </div>
           </nav>
