@@ -5,8 +5,8 @@ import '../styles/HomeStyles.css'
 const HomeContent = ({classNameHomeText, classNameReactLink, classNameGetStartedButton, classNameStyleGuideButton}) => {
   return (
 <div className="containerContentHome">
-            <h1 className='containerHomeTitle'>Welcome to <span className={classNameHomeText}> Origin </span></h1>
-            <p className='principalParagraph'>A marketing website theme built with  
+            <h1 className='containerHomeTitle'>Welcome to <span className={classNameHomeText}> Origin </span> themes.</h1>
+            <p className='principalParagraph'>A marketing website built with  
             <a className={classNameReactLink} href="https://react.dev/" target="_blank"> React </a>
               and carefully crafted for startups and businesses.</p>
             

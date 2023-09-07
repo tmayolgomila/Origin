@@ -1,50 +1,51 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "../styles/LayoutStyles.css";
-import Logo from "../img/Logo.png"
-import Logo2 from "../img/Logo2.png"
+import Logo from "../img/Logo.png";
+import Logo2 from "../img/Logo2.png";
 
 const Layout = ({ currentStyle }) => {
-
-
   const [isSearching, setIsSearching] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 420);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobileView(window.innerWidth < 420);
+      setIsMobileView(window.innerWidth < 1200);
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
   const toggleMobileNav = () => setIsMobileNavOpen(!isMobileNavOpen);
 
   return (
     <>
-
       {isMobileView ? (
         <section className="mobileNavbar">
           <nav className="mobileNav">
             <header id="mobileTitleContainer">
-
               {(() => {
-
-                if (currentStyle === 'body-style-2') {
+                if (currentStyle === "body-style-2") {
                   return (
-                    <Link to="/">  <img src={Logo2} width="40" /></Link>
-                  )
-                } else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4') {
+                    <Link to="/">
+                      {" "}
+                      <img src={Logo2} width="40" />
+                    </Link>
+                  );
+                } else if (
+                  currentStyle === "body-style-1" ||
+                  currentStyle === "body-style-3" ||
+                  currentStyle === "body-style-4"
+                ) {
                   return (
-                    <Link to="/">  <img src={Logo} width="40" /></Link>
-                  )
+                    <Link to="/">
+                      {" "}
+                      <img src={Logo} width="40" />
+                    </Link>
+                  );
                 }
-
               })()}
-
             </header>
 
             <div
@@ -77,93 +78,143 @@ const Layout = ({ currentStyle }) => {
 
             <div>
               {(() => {
-
-                if (currentStyle === 'body-style-2') {
+                if (currentStyle === "body-style-2") {
                   return (
-
                     <button id="navButtonOpenMobile1" onClick={toggleMobileNav}>
-
-                      {isMobileNavOpen ? (<ion-icon size="large" name="close-outline" id="icon-close1"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
-
+                      {isMobileNavOpen ? (
+                        <ion-icon
+                          size="large"
+                          name="close-outline"
+                          id="icon-close1"
+                        ></ion-icon>
+                      ) : (
+                        <ion-icon size="large" name="menu-outline"></ion-icon>
+                      )}
                     </button>
-                  )
-                } else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4') {
+                  );
+                } else if (
+                  currentStyle === "body-style-1" ||
+                  currentStyle === "body-style-3" ||
+                  currentStyle === "body-style-4"
+                ) {
                   return (
                     <button id="navButtonOpenMobile" onClick={toggleMobileNav}>
-
-                      {isMobileNavOpen ? (<ion-icon size="large" name="close-outline" id="icon-close"></ion-icon>) : (<ion-icon size="large" name="menu-outline"></ion-icon>)}
-
+                      {isMobileNavOpen ? (
+                        <ion-icon
+                          size="large"
+                          name="close-outline"
+                          id="icon-close"
+                        ></ion-icon>
+                      ) : (
+                        <ion-icon size="large" name="menu-outline"></ion-icon>
+                      )}
                     </button>
-                  )
+                  );
                 }
-
               })()}
-
             </div>
-
           </nav>
         </section>
       ) : (
         <section className="webNavbar">
-          
-            
-            {(() => {
+          {(() => {
+            if (currentStyle === "body-style-2") {
+              return (
+                <div className="originTitleDark">
+                  <Link
+                    to="/"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      textDecoration: "none",
+                    }}
+                  >
+                    <img src={Logo2} width="60" alt="Logo de Origin" />
+                    <h1>rigin</h1>
+                  </Link>
+                </div>
+              );
+            } else if (
+              currentStyle === "body-style-1" ||
+              currentStyle === "body-style-3" ||
+              currentStyle === "body-style-4"
+            ) {
+              return (
+                <div className="originTitleClassic">
+                  <Link
+                    to="/"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      textDecoration: "none",
+                    }}
+                  >
+                    <img src={Logo} width="60" alt="Logo de Origin" />
+                    <h1>rigin</h1>
+                  </Link>
+                </div>
+              );
+            }
+          })()}
 
-if (currentStyle === 'body-style-2') {
-  return (
-    <div className="originTitleDark">
-    <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-        <img src={Logo2} width="60" alt="Logo de Origin"/>
-        <h1>rigin</h1>
-    </Link>
-</div>
-  )
-} else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4') {
-  return (
-    <div className="originTitleClassic">
-    <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-        <img src={Logo} width="60" alt="Logo de Origin"/>
-        <h1>rigin</h1>
-    </Link>
-</div>
-
-    
-  )
-}
-
-})()}
-          
           <nav className="mainNav">
             <div className="navButtonsContainer">
-              <div className="navButtons">
+            {(() => {
+            if (currentStyle === "body-style-2") {
+              return (
+                <div className="navButtonsDark">
                 <button>
                   <Link to="/">Home</Link>
                 </button>
                 <button>
                   <Link to="/blogs">Blogs</Link>
                 </button>
-                <li>
+          
                   <button>
                     <Link to="/about">About</Link>
                   </button>
-                </li>
-                <li>
-                <button>
-                  <Link to="/contact">Contact</Link>
-                </button>
-
-                </li>
-           
+             
+            
+                  <button>
+                    <Link to="/contact">Contact</Link>
+                  </button>
+              
               </div>
+              );
+            } else if (
+              currentStyle === "body-style-1" ||
+              currentStyle === "body-style-3" ||
+              currentStyle === "body-style-4"
+            ) {
+              return (
+                <div className="navButtons">
+                <button>
+                  <Link to="/">Home</Link>
+                </button>
+                <button>
+                  <Link to="/blogs">Blogs</Link>
+                </button>
+         
+                  <button>
+                    <Link to="/about">About</Link>
+                  </button>
+            
+              
+                  <button>
+                    <Link to="/contact">Contact</Link>
+                  </button>
+              
+              </div>
+              );
+            }
+          })()}
+
             </div>
           </nav>
-
         </section>
-
       )}
 
       <Outlet className="outlet" />
-
     </>
   );
 };

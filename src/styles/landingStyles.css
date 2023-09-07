@@ -4,8 +4,8 @@
 }
 
 .fotoLanding{
-    border-radius: 9px;
-    width:100%;
+    border-radius: 20px;
+    width: 100%;
     height: 100%;
     transition: transform 0.3s ease; 
     -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
@@ -15,7 +15,7 @@
 
 
  .fotoLanding:hover {
-    transform: scale(1.1); 
+    transform: translateY(-20px);
     -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
     box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
@@ -41,4 +41,40 @@
 .linkLandingOcean{
     text-decoration: none;
     color: black;
+}
+
+@media (min-width: 1200px) {
+    .containerLandingWeb {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+      
+      .gridContainer {
+        width: 100%;
+      }
+
+      .landingContainerImage{
+        max-width: 20vw;
+       
+      }
+      .fotoLanding{
+        margin-top: 1em;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease; 
+        -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+     }
+    
+    
+     .fotoLanding:hover {
+        transform: translateY(-20px);
+        -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+        box-shadow: 10px 10px 34px 0px rgba(0,0,0,1);
+        
+    }
 }

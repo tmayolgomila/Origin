@@ -47,20 +47,25 @@ export const ButtonsHome = ({ handleStyleChange }) => {
         if (currentStyle === 'body-style-1') {
           return (
             <div className='containerHome'>
-
-
-
-            <HomeContent classNameHomeText="homeText1" classNameReactLink="reactLink1" classNameGetStartedButton="getStartedButton" classNameStyleGuideButton="styleGuideButton"/>
-    
-            <ButtonsHome handleStyleChange={handleStyleChange} />
-
-            <div className='fotoContainer'>
-            <img className='foto' src={fotoClassic}/>
-            </div>
-
-            <LandingPagesContent className="landingContainerClassic" classNameLink="linkLandingClassic" />
+              <div className='containerWebHome'>
+                <div className='welcomeButtonsContainer'>
+                <HomeContent classNameHomeText="homeText1" classNameReactLink="reactLink1" classNameGetStartedButton="getStartedButton" classNameStyleGuideButton="styleGuideButton"/>
             
-            <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+                <ButtonsHome handleStyleChange={handleStyleChange} />
+            
+                </div>
+            
+                <div className='fotoContainer'>
+                <img className='foto' src={fotoClassic}/>
+                </div>
+            
+              </div>
+          
+
+
+              <LandingPagesContent className="landingContainerClassic" classNameLink="linkLandingClassic" />
+            
+              <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
 
             </div>
           )

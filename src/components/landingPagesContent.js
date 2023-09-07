@@ -12,14 +12,16 @@ const LandingPagesContent = ({ className, classNameLink }) => {
 
                 <h2>Landing Pages</h2>
                 <p>Use one of our landing pages to jumpstart your website or ad campaign. </p>
-                <Link className={classNameLink} to="/blogs">
+                <div className="containerLandingWeb">
+                    <div className="gridContainer">
+                    <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Landing Page 1</h3>
                             <img className="fotoLanding" src={playa1} />
                         </div>
                     </div>
-                </Link>
+                    </Link>
 
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
@@ -29,6 +31,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
+                    </div>
+                    <div className="gridContainer">
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -37,6 +41,9 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                </div>
+
             </section>
 
             <section>
@@ -45,6 +52,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                     Use one of our prebuilt company pages for your about page, contact page,
                     legal pages, blog posts, etc.
                 </p>
+                <div className="containerLandingWeb">
+                <div className="gridContainer">
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -62,6 +71,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className="gridContainer">
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -78,7 +89,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
-
+                </div>
+                </div>
 
 
             </section>
@@ -88,6 +100,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 <p>
                 Learn more about how to set up and use the Odyssey Theme.
                 </p>
+                <div className="containerLandingWeb">
+                <div className="gridContainer">
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -104,6 +118,8 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                </div>
             </section>
 
 

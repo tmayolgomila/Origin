@@ -48,7 +48,7 @@
 }
 
 .fotoContainer{
-    display: flex;
+
     justify-content: center;
     align-items: center;
     padding: 0.5em;
@@ -189,7 +189,7 @@
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin-top: 1em;
  }
  .landingContainerDark{
@@ -201,7 +201,7 @@
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin-top: 1em;
  }
  .landingContainerEarth{
@@ -213,7 +213,7 @@
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin-top: 1em;
  }
  .landingContainerOcean{
@@ -225,22 +225,83 @@
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin-top: 1em;
  }
 
  /*web styles*/
- @media (min-width: 420px) {
+ @media (min-width: 1200px) {
  .containerHome{
     display: block;
     justify-content: center;
     align-items: center;
-    max-width: 70vw;
+    max-width: 80vw;
     margin: 0 auto;
-
-
 }
 .containerContentHome{
     padding: 1em;
+} 
+.containerWebHome{
+    display: flex;
+    justify-content: left;
 
-} }
+}
+.fotoContainer{
+
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.foto{
+   border-radius: 20px;
+   width:100%;
+   height: 100%;
+}
+.homeContainerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2ch;
+}
+
+
+
+}
+@media (max-width: 1200px) and (min-width:420px) {
+    .containerHome{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+    
+    }
+    .containerContentHome{
+        padding: 1em;
+        
+    
+    } 
+    .containerWebHome{
+        display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+    }
+    .fotoContainer{
+    
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    
+    .foto{
+       border-radius: 20px;
+       min-width: 300px;
+    }
+}
+

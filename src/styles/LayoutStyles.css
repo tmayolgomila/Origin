@@ -109,7 +109,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 70vw;
+    max-width: 80vw;
     margin: 0 auto;
   }
 
@@ -144,7 +144,6 @@
   }
   
   .navButtons button {
-    margin-right: 10px;
     background: none;
     border: none;
     cursor: pointer;
@@ -153,6 +152,30 @@
 
   .navButtons button a{
     text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .navButtonsDark {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navButtonsDark button {
+    background: none;
+    border: none;
+    cursor: pointer;
+   
+  }
+
+  .navButtonsDark button a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
   }
 
   .originTitleDark a{
