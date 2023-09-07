@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "../styles/LayoutStyles.css";
+import Logo from "../img/Logo.png"
+import Logo2 from "../img/Logo2.png"
 
-
-const Layout = ({currentStyle, originTitle}) => {
+const Layout = ({currentStyle}) => {
 
 
   const [isSearching, setIsSearching] = useState(false);
@@ -33,8 +34,19 @@ const Layout = ({currentStyle, originTitle}) => {
             <header id="mobileTitleContainer">
 
            
-            <h1 > <Link to="/" className={originTitle}>Origin </Link></h1>
            
+           {(() => {
+
+if (currentStyle === 'body-style-2') {
+  return (
+        <Link to="/">  <img src={Logo2} width="50"/></Link>
+  )} else if (currentStyle === 'body-style-1' || currentStyle === 'body-style-3' || currentStyle === 'body-style-4'){
+    return(
+      <Link to="/">  <img src={Logo} width="50"/></Link>
+    )
+  } 
+
+            })()}
 
             </header>
 

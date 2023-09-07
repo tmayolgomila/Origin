@@ -81,6 +81,7 @@
     left: 1em;
     font-size: 20px;
     text-decoration: none;
+    margin-top: 0.5em;
 }
 
 #navButtonOpenMobile {
@@ -129,21 +130,4 @@
 #navButtonOpenMobile1{
 
     color: rgb(255, 255, 255);
-}
-.originTitleClassic{
-    color: black;
-    text-decoration: none !important;
-}
-
-.originTitleDark{
-    color: white;
-    text-decoration: none;
-}
-.originTitleEarth{
-    color: rgb(94, 69, 54);
-    text-decoration: none;
-}
-.originTitleOcean{
-    color: black;
-    text-decoration: none;
 }
