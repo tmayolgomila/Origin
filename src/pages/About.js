@@ -17,7 +17,7 @@ import Footer from '../components/footer'
           if (document.body.classList.value === "body-style-1") {
             return (
               <>
-                  <Layout currentStyle={document.body.classList.value}  originTitle="originTitleClassic"/> 
+                  
                   <AboutContent fotoAbout={fotoClassic} />
                   <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
           
@@ -26,7 +26,6 @@ import Footer from '../components/footer'
           } else if (document.body.classList.value === "body-style-2") {
             return (
               <>
-                  <Layout currentStyle={document.body.classList.value}  originTitle="originTitleDark"/>
                   <AboutContent fotoAbout={fotoDark} />
                   <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
                
@@ -35,7 +34,7 @@ import Footer from '../components/footer'
           } else if (document.body.classList.value === "body-style-3") {
             return (
               <>
-                  <Layout currentStyle={document.body.classList.value}  originTitle="originTitleEarth"/>
+                  
                   <AboutContent fotoAbout={fotoEarth} />
                   <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
               
@@ -44,7 +43,7 @@ import Footer from '../components/footer'
           } else if (document.body.classList.value === "body-style-4") {
             return (
               <>
-                  <Layout currentStyle={document.body.classList.value}  originTitle="originTitleOcean"/>
+                  
                   <AboutContent fotoAbout={fotoOcean} />
                   <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
                   
@@ -52,8 +51,22 @@ import Footer from '../components/footer'
             );
           }
         })()}
-  
-      
+          
+            {(() => {
+        if (window.innerWidth < 420) {
+          return (
+            <Layout currentStyle={document.body.classList.value} /> 
+          )
+        } else  {
+          return (
+           <>
+           </>
+          )
+        }
+          
+        
+      })()}
+
       </div>
 
     )

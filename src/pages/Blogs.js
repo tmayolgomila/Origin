@@ -11,7 +11,7 @@ const Blogs = () => {
         if (document.body.classList.value === "body-style-1") {
           return (
             <>
-            <Layout currentStyle={document.body.classList.value}  originTitle="originTitleClassic"/> 
+           
             <BlogsContent  className="originBlog" classNamesubmitExplainContainer="submitExplainContainer"/>
             <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
             </>
@@ -19,7 +19,7 @@ const Blogs = () => {
         } else if (document.body.classList.value === "body-style-2") {
           return (
             <>
-            <Layout currentStyle={document.body.classList.value}  originTitle="originTitleDark"/>
+           
             <BlogsContent  className="originBlogDarkTheme" classNamesubmitExplainContainer="submitExplainContainerDarkTheme"/>
             <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
             </>
@@ -27,7 +27,7 @@ const Blogs = () => {
         } else if (document.body.classList.value === "body-style-3") {
           return (
             <>
-            <Layout currentStyle={document.body.classList.value}  originTitle="originTitleEarth"/>
+          
             <BlogsContent  className="originBlogEarthTheme" classNamesubmitExplainContainer="submitExplainContainerEarthTheme"/>
             <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
             </>
@@ -35,7 +35,7 @@ const Blogs = () => {
         } else if (document.body.classList.value === "body-style-4") {
           return (
             <>
-            <Layout currentStyle={document.body.classList.value}  originTitle="originTitleOcean"/>
+            
             <BlogsContent  className="originBlogOceanTheme" classNamesubmitExplainContainer="submitExplainContainerOceanTheme"/>
             <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
             </>
@@ -43,7 +43,20 @@ const Blogs = () => {
         }
       })()}
 
-     
+{(() => {
+        if (window.innerWidth < 420) {
+          return (
+            <Layout currentStyle={document.body.classList.value} /> 
+          )
+        } else  {
+          return (
+           <>
+           </>
+          )
+        }
+          
+        
+      })()}
     </div>
   );
 };
