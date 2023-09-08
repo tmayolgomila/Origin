@@ -244,13 +244,13 @@
 .containerWebHome{
     display: flex;
     justify-content: center;
-    max-width: 80vw;
+    max-width: 70vw;
     margin: 0 auto;
 
 }
 .containerLandingWebHome{
 
-    max-width: 80vw;
+    max-width: 70vw;
     margin: 0 auto;
 }
 .fotoContainer{

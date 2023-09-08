@@ -104,3 +104,51 @@
     background: rgb(21, 86, 172);
     color: white;
 }
+
+@media (min-width:1200px){
+
+    .containerContact{
+        display: flex;
+        justify-content: center;
+        max-width: 30vw;
+        margin: 0 auto;
+    }
+
+    .containerContactClassic{
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    .containerContactDark{
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    .containerContactEarth{
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    .containerContactOcean{
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    .containerFormContact{
+    
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+
+}
