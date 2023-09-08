@@ -5,7 +5,6 @@ import Logo from "../img/Logo.png";
 import Logo2 from "../img/Logo2.png";
 
 const Layout = ({ currentStyle }) => {
-  const [isSearching, setIsSearching] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 420);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
