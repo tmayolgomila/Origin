@@ -4,6 +4,9 @@ import '../styles/AboutStyles.css'
 function AboutContent({fotoAbout}) {
   return (
     <div className='containerAbout'>
+      <div className='containerWebAboutContent'>
+
+<div className='firstTextContainerWeb'>
       <h2>Welcome to Origin!</h2>
       <p>
         At Origin, we are passionate about bringing your vision to life. We understand that in today's digital age, a compelling online presence is essential for the success of any business or marketing campaign. That's where we come in.
@@ -14,8 +17,11 @@ function AboutContent({fotoAbout}) {
       <p>
         What sets us apart? It's our unwavering dedication to creativity, innovation, and excellence. We don't just create websites; we craft digital experiences that captivate your audience and drive results. Our goal is to make your brand shine in the digital landscape, ensuring that your message reaches your target audience effectively.
       </p>
+      </div>
       <div className='fotoContainerAbout'>
             <img className='fotoAbout' src={fotoAbout}/>
+      </div>
+
       </div>
       <h3>Why choose us?</h3>
       <div>

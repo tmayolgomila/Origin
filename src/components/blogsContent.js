@@ -17,7 +17,7 @@ const BlogsContent = ({className, classNamesubmitExplainContainer}) => {
                     post? Join our newsletter!
                   </p>
                   <form>
-                    <div>
+                    <div className="containerSubmitWeb">
                       <div className="containerInputExplainContainer">
                         <input
                           className="inputExplainContainer"
@@ -34,7 +34,10 @@ const BlogsContent = ({className, classNamesubmitExplainContainer}) => {
                 </div>
               </section>
               <section className="recentPostContainer">
+
                 <h2 className="recentPostTitle">Recent Posts</h2>
+                <div className="containerLandingWeb">
+                    <div className="gridContainer">
                 <div>
                   <a>
                     <img loading="lazy"
@@ -65,6 +68,8 @@ const BlogsContent = ({className, classNamesubmitExplainContainer}) => {
                     </p>
                   </a>
                 </div>
+                </div>
+                <div className="gridContainer">
                 <div>
                   <a>
                     <img loading="lazy"
@@ -75,6 +80,8 @@ const BlogsContent = ({className, classNamesubmitExplainContainer}) => {
                     <h3>Top 10 Reasons To Consider A Hybrid Work Model</h3>
                     <p>This is also a sample blog post for the Origin Theme.</p>
                   </a>
+                </div>
+                </div>
                 </div>
               </section>
               </div>

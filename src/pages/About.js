@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Layout from './Layout'
 import '../styles/AboutStyles.css'
 import AboutContent from '../components/aboutContent'
@@ -18,10 +18,13 @@ import Footer from '../components/footer'
           if (document.body.classList.value === "body-style-1") {
             return (
               <>
-                  
-                  <AboutContent fotoAbout={fotoClassic} />
-                  <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
-          
+                     
+
+                       <AboutContent fotoAbout={fotoClassic} />
+
+
+                        <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+
               </>
             );
           } else if (document.body.classList.value === "body-style-2") {

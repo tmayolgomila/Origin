@@ -117,7 +117,8 @@
     align-items: center;
 }
 .fotoOriginTheme{
-    border-radius: 9px;
+    transition: border-radius 0.3s ease; 
+    border-radius: 10px;
     width:100%;
     height: 100%;
 }
@@ -129,3 +130,45 @@
     font-size: large;
 }
 
+ /*web styles*/
+ @media (min-width: 420px) {
+
+   .blogsContainer{
+       display: block;
+       justify-content: center;
+       max-width: 80vw;
+       margin: 0 auto;
+   
+   }
+   .explainContainer{
+        height: 300px;
+        padding: 3em;
+   }
+   .containerSubmitWeb{
+        max-width: 30vw;
+   }
+   .fotoOriginTheme:hover{
+    border-radius: 50px;
+    width:100%;
+    height: 100%;
+}
+
+   .submitExplainContainer{
+    margin-top: 2em;
+   }
+   .submitExplainContainerDarkTheme{
+    margin-top: 2em;
+   }
+   .submitExplainContainerEarthTheme{
+    margin-top: 2em;
+   }
+   .submitExplainContainerOceanTheme{
+    margin-top: 2em;
+   }
+   
+   }
+   @media (max-width: 1200px) and (min-width:420px) {
+
+   }
+   
+   

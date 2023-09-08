@@ -235,16 +235,23 @@
     display: block;
     justify-content: center;
     align-items: center;
-    max-width: 80vw;
-    margin: 0 auto;
+
+  
 }
 .containerContentHome{
     padding: 1em;
 } 
 .containerWebHome{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
 
+}
+.containerLandingWebHome{
+
+    max-width: 80vw;
+    margin: 0 auto;
 }
 .fotoContainer{
 
@@ -266,7 +273,9 @@
     align-items: center;
     padding: 2ch;
 }
-
+.footerWeb{
+    width: 100%;
+}
 
 
 }
@@ -286,9 +295,9 @@
     } 
     .containerWebHome{
         display: flex;
-  justify-content: center;
-  align-items: center; 
-  height: 100vh; 
+        justify-content: center;
+        align-items: center; 
+        height: 100vh; 
     }
     .fotoContainer{
     
