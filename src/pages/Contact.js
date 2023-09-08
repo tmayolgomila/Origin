@@ -19,8 +19,9 @@ import Footer from '../components/footer'
             <>
                
                 <ContactContent contactUsContainer="containerContactClassic" submitContactButton="contactButtonClassic"/>
+                <div className='footerWeb'>
                 <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
-            
+                </div>
             </>
           );
         } else if (document.body.classList.value === "body-style-2") {
@@ -28,7 +29,10 @@ import Footer from '../components/footer'
             <>
                   
                   <ContactContent contactUsContainer="containerContactDark" submitContactButton="contactButtonDark"/>
-                  <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
+                   <div className='footerWeb'>
+                   <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
+                   </div>
+               
             
             </>
           );
@@ -37,7 +41,10 @@ import Footer from '../components/footer'
             <>
                    
                    <ContactContent contactUsContainer="containerContactEarth" submitContactButton="contactButtonEarth"/>
-                   <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
+                    <div className='footerWeb'>
+                    <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
+                    </div>
+            
            
             </>
           );
@@ -46,7 +53,10 @@ import Footer from '../components/footer'
             <>
                   
                   <ContactContent contactUsContainer="containerContactOcean" submitContactButton="contactButtonOcean"/>
-                  <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
+                   <div className='footerWeb'>
+                   <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
+                   </div>
+     
            
             </>
           );

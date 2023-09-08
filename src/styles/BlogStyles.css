@@ -174,7 +174,10 @@
    .submitExplainContainerOceanTheme{
     margin-top: 2em;
    }
-   
+   .footerWeb{
+    max-width: 70vw;
+    margin: 0 auto;
+   }
    }
    @media (max-width: 1200px) and (min-width:420px) {
 

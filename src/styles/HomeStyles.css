@@ -244,13 +244,13 @@
 .containerWebHome{
     display: flex;
     justify-content: center;
-    max-width: 70vw;
+    max-width: 60vw;
     margin: 0 auto;
 
 }
 .containerLandingWebHome{
 
-    max-width: 70vw;
+    max-width: 60vw;
     margin: 0 auto;
 }
 .fotoContainer{
@@ -274,8 +274,9 @@
     padding: 2ch;
 }
 .footerWeb{
-    width: 100%;
-}
+    max-width: 70vw;
+    margin: 0 auto;
+   }
 
 
 }
@@ -312,5 +313,9 @@
        border-radius: 20px;
        min-width: 300px;
     }
+    .footerWeb{
+        max-width: 70vw;
+        margin: 0 auto;
+       }
 }
 

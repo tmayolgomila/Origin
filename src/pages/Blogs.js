@@ -15,7 +15,10 @@ const Blogs = () => {
             <>
            
             <BlogsContent  className="originBlog" classNamesubmitExplainContainer="submitExplainContainer"/>
-            <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+          <div className="footerWeb">
+          <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+          </div>
+          
             </>
           );
         } else if (document.body.classList.value === "body-style-2") {
@@ -23,7 +26,10 @@ const Blogs = () => {
             <>
            
             <BlogsContent  className="originBlogDarkTheme" classNamesubmitExplainContainer="submitExplainContainerDarkTheme"/>
+            <div className="footerWeb">
             <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
+            </div>
+         
             </>
           );
         } else if (document.body.classList.value === "body-style-3") {
@@ -31,7 +37,11 @@ const Blogs = () => {
             <>
           
             <BlogsContent  className="originBlogEarthTheme" classNamesubmitExplainContainer="submitExplainContainerEarthTheme"/>
+            <div className="footerWeb">
+
+        
             <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
+            </div>
             </>
           );
         } else if (document.body.classList.value === "body-style-4") {
@@ -39,7 +49,9 @@ const Blogs = () => {
             <>
             
             <BlogsContent  className="originBlogOceanTheme" classNamesubmitExplainContainer="submitExplainContainerOceanTheme"/>
+            <div className="footerWeb">
             <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
+            </div>
             </>
           );
         }

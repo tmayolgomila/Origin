@@ -150,5 +150,9 @@
         margin-bottom: 2em;
         padding: 1em;
     }
+    .footerWeb{
+        max-width: 70vw;
+        margin: 0 auto;
+       }
 
 }

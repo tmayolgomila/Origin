@@ -62,10 +62,11 @@ const Home = () => {
                 </div>
             <div className='containerLandingWebHome'>
               <LandingPagesContent className="landingContainerClassic" classNameLink="linkLandingClassic" />
-            </div>
+          
+              </div>
               <div className='footerWeb'>
                 <Footer className="footerContainer" classNameFooterTitle="footerTitle" />
-              </div>
+                </div>
 
             </div>
           )

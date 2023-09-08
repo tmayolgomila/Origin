@@ -22,8 +22,10 @@ import Footer from '../components/footer'
 
                        <AboutContent fotoAbout={fotoClassic} />
 
+                    <div className='footerWeb'>
 
-                        <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+                    <Footer className="footerContainer" classNameFooterTitle="footerTitle"/>
+                    </div>
 
               </>
             );
@@ -31,7 +33,10 @@ import Footer from '../components/footer'
             return (
               <>
                   <AboutContent fotoAbout={fotoDark} />
+                  <div className='footerWeb'>
+                      
                   <Footer className="footerContainerDarkTheme" classNameFooterTitle="footerTitle"/>
+                      </div>
                
               </>
             );
@@ -40,7 +45,10 @@ import Footer from '../components/footer'
               <>
                   
                   <AboutContent fotoAbout={fotoEarth} />
+                  <div className='footerWeb'>
+                      
                   <Footer className="footerContainerEarthTheme" classNameFooterTitle="footerTitle"/>
+                      </div>
               
               </>
             );
@@ -49,7 +57,10 @@ import Footer from '../components/footer'
               <>
                   
                   <AboutContent fotoAbout={fotoOcean} />
+                  <div className='footerWeb'>
+                      
                   <Footer className="footerContainerOceanTheme" classNameFooterTitle="footerTitle"/>
+                      </div>
                   
               </>
             );
