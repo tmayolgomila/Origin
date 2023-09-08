@@ -7,132 +7,28 @@ const CompanyPage1Content = () => {
 
     return (
         <>
-
-            <div>
-                <div>
-                    <section>
-                        <div>
-                            <div>
-                                <h1>Don't Reinvent the Wheel</h1>
-                                <p>Use Origin Theme to jumpstart your company's marketing website.</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <a>Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <picture>
-                                <img  alt='landing page 1 img'/>
-                            </picture>
-                        </div>
-                    </section>
-                </div>
-
+            <div className='companyPageContainer'>
                 <section>
-                    <div>
-                        <blockquote >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, vero nobis? Voluptas assumenda, voluptatibus commodi qui ducimus delectus praesentium maiores, impedit iure labore ratione, ea facilis numquam doloremque aperiam aspernatur."</blockquote><p>— Happy Customer</p>
-                    </div>
-                </section><div>
-                    <section>
-                        <div>
-                            <div>
-                                <h2>Why?</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                            </div>
-                            <button>Learn More</button>
-
-
-                        </div>
-                        <div>
-                            <div>
-                                <h2>How?</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                            </div>
-                            <button>Learn More</button>
-
-
-                        </div>
-                        <div>
-                            <div>
-                                <h2>What?</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                            </div>
-                            <button>Learn More</button>
-
-
-                        </div>
-                    </section>
-                </div><div>
-                    <section>
-
-
-                        <div>
-                            <iframe src="https://www.youtube.com/embed/cbYr75_R15M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy">
-                            </iframe>
-                        </div>
-                    </section>
-                </div><div>
-                    <section>
-                        <div>
-                            <div>
-                                <h2>Features</h2>
-                                <h3>SEO</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                                <h3>Responsive</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                                <h3>Themeable</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
-                                    tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
-                                    consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
-                                    mollitia cumque. Velit.
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <picture>
-                                <img  alt='landing page 2 img'/>
-                            </picture>
-                        </div>
-                    </section>
-                </div><div >
-                    <section >
-                        <div>
-                            <h2>Start Your Website Today</h2><p>It only takes a couple clicks to have a new, modern website for your business or startup.</p><a>Get Started</a>
-                        </div>
-                    </section>
-                </div>
-
-
+                    <h1>Legal Page</h1><p>This is the legal page template. It is a great starter for your company's Terms of Service, Terms &amp; Conditions,
+                        Privacy Policy, etc.</p><h2>Terms of Service</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, obcaecati. Aspernatur facilis molestias
+                            vitae. Aliquid debitis eum quis repudiandae pariatur possimus provident accusantium reiciendis nemo, culpa labore
+                            laborum, dolorum ea.</p><p>Corrupti impedit perferendis, libero in, voluptates quod ratione repudiandae veniam sapiente necessitatibus, eius
+                                illo. Impedit quibusdam esse saepe placeat incidunt voluptatibus soluta dolore blanditiis ad provident animi
+                                illum, est adipisci?</p><p>Ratione optio necessitatibus numquam dignissimos sunt molestiae ipsum fugiat quae maxime veniam aspernatur eius
+                                    quidem vel reprehenderit sequi, molestias perspiciatis, illo architecto perferendis nobis, in dolore! Nam
+                                    asperiores eaque totam.</p><p>Repudiandae, labore alias. Voluptatem quia itaque sequi, aperiam, reprehenderit ipsum libero quae adipisci
+                                        possimus eum esse corrupti sapiente harum dignissimos eligendi cum iure tempora magnam nemo, sunt provident vero.
+                                        Voluptatibus.</p><h2>Privacy Policy</h2><p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eveniet quibusdam ipsa, veniam adipisci rerum
+                        temporibus inventore! Sit quas vero laboriosam tempora alias! Fugit, saepe earum quod modi harum qui.
+                        Expedita, pariatur consequuntur! Modi, maiores. Quaerat voluptatibus nostrum non harum rerum dolorem totam qui
+                        repellendus, itaque dignissimos eveniet consequuntur ducimus! Non commodi magnam nemo, pariatur facilis
+                        repellendus sunt fuga ipsa.
+                    </p><p>Consequuntur similique ab ea tenetur, quo aperiam molestias sed facilis minus eaque eveniet libero quis
+                        accusantium deleniti tempore? Qui vel reiciendis voluptates corporis eum repellat maiores fugit, eveniet sapiente
+                        ad.</p>
+                </section>
             </div>
-
         </>
 
     )

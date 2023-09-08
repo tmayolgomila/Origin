@@ -13,7 +13,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 <h2>Landing Pages</h2>
                 <p>Use one of our landing pages to jumpstart your website or ad campaign. </p>
                 <div className="containerLandingWeb">
-                    <div className="gridContainer">
+                  
                     <Link className={classNameLink} to="/landingPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -31,17 +31,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
-                    </div>
-                    <div className="gridContainer">
-                <Link className={classNameLink} to="/landingPage1">
-                    <div className={className}>
-                        <div className="landingContainerImage">
-                            <h3 className="landingTitle">Landing Page 3</h3>
-                            <img className="fotoLanding" src={playa3} alt="foto landing 3"/>
-                        </div>
-                    </div>
-                </Link>
-                </div>
+                
                 </div>
 
             </section>
@@ -54,7 +44,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 </p>
                 <div className="containerLandingWeb">
                 <div className="gridContainer">
-                <Link className={classNameLink} to="/companyPage1">
+                <Link className={classNameLink} to="/about">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">About Page</h3>
@@ -63,7 +53,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                     </div>
                 </Link>
 
-                <Link className={classNameLink} to="/companyPage1">
+                <Link className={classNameLink} to="/contact">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Contact Page</h3>
@@ -73,19 +63,29 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 </Link>
                 </div>
                 <div className="gridContainer">
-                <Link className={classNameLink} to="/companyPage1">
+                <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
-                            <h3 className="landingTitle">Blog Post</h3>
+                            <h3 className="landingTitle">Blog Page</h3>
                             <img className="fotoLanding" src={playa1} alt="foto landing 6"/>
                         </div>
                     </div>
                 </Link>
+                <Link className={classNameLink} to="/blogPost">
+                    <div className={className}>
+                        <div className="landingContainerImage">
+                            <h3 className="landingTitle">Blog Post</h3>
+                            <img className="fotoLanding" src={playa1} alt="foto landing 7"/>
+                        </div>
+                    </div>
+                </Link>
+                </div>
+                <div className="gridContainer">
                 <Link className={classNameLink} to="/companyPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Legal Page</h3>
-                            <img className="fotoLanding" src={playa1} alt="foto landing 7"/>
+                            <img className="fotoLanding" src={playa1} alt="foto landing 6"/>
                         </div>
                     </div>
                 </Link>
@@ -101,7 +101,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 Learn more about how to set up and use the Origin Theme.
                 </p>
                 <div className="containerLandingWeb">
-                <div className="gridContainer">
+             
                 <Link className={classNameLink} to="/blogs">
                     <div className={className}>
                         <div className="landingContainerImage">
@@ -118,7 +118,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                         </div>
                     </div>
                 </Link>
-                </div>
+            
                 </div>
             </section>
 

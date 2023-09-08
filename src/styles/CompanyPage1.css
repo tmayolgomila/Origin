@@ -3,4 +3,14 @@
         max-width: 70vw;
         margin: 0 auto;
     }
+    .companyPageContainer{
+        margin-top: 4em;
+        padding: 1em;
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+}
+.companyPageContainer{
+    margin-top: 4em;
+    padding: 1em;
 }

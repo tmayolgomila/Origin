@@ -1,9 +1,21 @@
 @media(min-width:1200px){
     .footerWeb{
-        .footerWeb{
+       
             max-width: 70vw;
             margin: 0 auto;
-           }
+           
+    }
+    .fotoLandingPage1{
+        border-radius: 9px;
+        width:100%;
+        height: 100%;
+        max-width: 600px;
+     }
+     .landingContentPage1Container{
+        margin-top: 4em;
+        padding: 1em;
+        max-width: 60vw;
+        margin: 0 auto;
     }
 }
 .landingContentPage1Container{
