@@ -1,0 +1,6 @@
+@media(min-width:1200px){
+    .footerWeb{
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+}

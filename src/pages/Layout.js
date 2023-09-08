@@ -30,7 +30,7 @@ const Layout = ({ currentStyle }) => {
                   return (
                     <Link to="/">
                       {" "}
-                      <img src={Logo2} width="40" />
+                      <img src={Logo2} width="40" alt="logo2"/>
                     </Link>
                   );
                 } else if (
@@ -41,7 +41,7 @@ const Layout = ({ currentStyle }) => {
                   return (
                     <Link to="/">
                       {" "}
-                      <img src={Logo} width="40" />
+                      <img src={Logo} width="40" alt="logo"/>
                     </Link>
                   );
                 }

@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
 
                 <div className='fotoContainer'>
-                  <img className='foto' src={fotoClassic} />
+                  <img className='foto' src={fotoClassic} alt='foto classic'/>
                 </div>
 
                 </div>
@@ -80,7 +80,7 @@ const Home = () => {
                   <ButtonsHome handleStyleChange={handleStyleChange} />
                 </div>
                 <div className='fotoContainer'>
-                  <img className='foto' src={fotoDark} />
+                  <img className='foto' src={fotoDark} alt='foto dark'/>
                 </div>
               </div>
               <div className='containerLandingWebHome'>
@@ -101,7 +101,7 @@ const Home = () => {
                   <ButtonsHome handleStyleChange={handleStyleChange} />
                 </div>
                 <div className='fotoContainer'>
-                  <img className='foto' src={fotoSand} />
+                  <img className='foto' src={fotoSand} alt='foto sand' />
                 </div>
               </div>
               <div className='containerLandingWebHome'>
@@ -122,7 +122,7 @@ const Home = () => {
                   <ButtonsHome handleStyleChange={handleStyleChange} />
                 </div>
                 <div className='fotoContainer'>
-                  <img className='foto' src={fotoOcean} />
+                  <img className='foto' src={fotoOcean} alt='foto ocean' />
                 </div>
               </div>
               <div className='containerLandingWebHome'>

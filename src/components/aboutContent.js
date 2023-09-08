@@ -19,7 +19,7 @@ function AboutContent({fotoAbout}) {
       </p>
       </div>
       <div className='fotoContainerAbout'>
-            <img className='fotoAbout' src={fotoAbout}/>
+            <img className='fotoAbout' src={fotoAbout} alt='foto about'/>
       </div>
 
       </div>

@@ -14,30 +14,30 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 <p>Use one of our landing pages to jumpstart your website or ad campaign. </p>
                 <div className="containerLandingWeb">
                     <div className="gridContainer">
-                    <Link className={classNameLink} to="/blogs">
+                    <Link className={classNameLink} to="/landingPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Landing Page 1</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 1"/>
                         </div>
                     </div>
                     </Link>
 
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/landingPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Landing Page 2</h3>
-                            <img className="fotoLanding" src={playa2} />
+                            <img className="fotoLanding" src={playa2} alt="foto landing 2"/>
                         </div>
                     </div>
                 </Link>
                     </div>
                     <div className="gridContainer">
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/landingPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Landing Page 3</h3>
-                            <img className="fotoLanding" src={playa3} />
+                            <img className="fotoLanding" src={playa3} alt="foto landing 3"/>
                         </div>
                     </div>
                 </Link>
@@ -54,38 +54,38 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                 </p>
                 <div className="containerLandingWeb">
                 <div className="gridContainer">
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/companyPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">About Page</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 4"/>
                         </div>
                     </div>
                 </Link>
 
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/companyPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Contact Page</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 5"/>
                         </div>
                     </div>
                 </Link>
                 </div>
                 <div className="gridContainer">
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/companyPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Blog Post</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 6"/>
                         </div>
                     </div>
                 </Link>
-                <Link className={classNameLink} to="/blogs">
+                <Link className={classNameLink} to="/companyPage1">
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Legal Page</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 7"/>
                         </div>
                     </div>
                 </Link>
@@ -98,7 +98,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
             <section>
                 <h2>Theme Pages</h2>
                 <p>
-                Learn more about how to set up and use the Odyssey Theme.
+                Learn more about how to set up and use the Origin Theme.
                 </p>
                 <div className="containerLandingWeb">
                 <div className="gridContainer">
@@ -106,7 +106,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Get Started</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 8"/>
                         </div>
                     </div>
                 </Link>
@@ -114,7 +114,7 @@ const LandingPagesContent = ({ className, classNameLink }) => {
                     <div className={className}>
                         <div className="landingContainerImage">
                             <h3 className="landingTitle">Style Guide</h3>
-                            <img className="fotoLanding" src={playa1} />
+                            <img className="fotoLanding" src={playa1} alt="foto landing 9"/>
                         </div>
                     </div>
                 </Link>

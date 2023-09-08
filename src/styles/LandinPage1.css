@@ -1,0 +1,48 @@
+@media(min-width:1200px){
+    .footerWeb{
+        .footerWeb{
+            max-width: 70vw;
+            margin: 0 auto;
+           }
+    }
+}
+.landingContentPage1Container{
+    margin-top: 4em;
+    padding: 1em;
+}
+.fotoContainerLandingPage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.fotoLandingPage1{
+   border-radius: 9px;
+   width:100%;
+   height: 100%;
+   max-height: 80vh;
+}
+.dontReinventTitle{
+    font-size: 42px;
+    font-weight: bold;
+}
+.getStartedButtonClassic{
+    background:black;
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 20px;
+    margin-right: 1em;
+    color:white;
+}
+.getStartedButtonDark{
+    background:rgb(255, 255, 255);
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 20px;
+    margin-right: 1em;
+}
+
