@@ -45,4 +45,40 @@
     border-radius: 20px;
     margin-right: 1em;
 }
-
+.getStartedButtonEarth{
+    background: rgb(227, 138, 32);
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 20px;
+    margin-right: 1em;
+    color:white;
+}
+.getStartedButtonOcean{
+    background: rgb(21, 86, 172);
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 20px;
+    margin-right: 1em;
+}
+.happyCustomerContainerClassic{
+    margin-top: 1em;
+    background: rgb(242, 242, 242);
+    padding: 2em;
+}
+.happyCustomerContainerDark{
+    margin-top: 1em;
+    background: rgb(51, 51, 51);
+    padding: 2em;
+}
+.happyCustomerContainerEarth{
+    margin-top: 1em;
+    background: rgb(255, 236, 217);
+    padding: 2em;
+}
+.happyCustomerContainerOcean{
+    margin-top: 1em;
+    background: rgb(238, 241, 243);
+    padding: 2em;
+}

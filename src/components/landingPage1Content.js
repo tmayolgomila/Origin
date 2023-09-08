@@ -48,7 +48,7 @@ const LandingPage1Content = ({fotoLandingPage1, foto2LandingPage1, getStartedBut
                                     mollitia cumque. Velit.
                                 </p>
                             </div>
-                            <button>Learn More</button>
+                            <button className={getStartedButton}>Learn More</button>
 
 
                         </div>
@@ -62,7 +62,7 @@ const LandingPage1Content = ({fotoLandingPage1, foto2LandingPage1, getStartedBut
                                     mollitia cumque. Velit.
                                 </p>
                             </div>
-                            <button>Learn More</button>
+                            <button className={getStartedButton}>Learn More</button>
 
 
                         </div>
@@ -76,7 +76,7 @@ const LandingPage1Content = ({fotoLandingPage1, foto2LandingPage1, getStartedBut
                                     mollitia cumque. Velit.
                                 </p>
                             </div>
-                            <button>Learn More</button>
+                            <button className={getStartedButton}>Learn More</button>
 
 
                         </div>
