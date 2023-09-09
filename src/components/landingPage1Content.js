@@ -1,8 +1,6 @@
 import React from 'react'
 import '../styles/LandinPage1.css'
 
-
-
 const LandingPage1Content = ({fotoLandingPage1, foto2LandingPage1, getStartedButton, happyCustomerContainer}) => {
 
     return (
@@ -11,17 +9,16 @@ const LandingPage1Content = ({fotoLandingPage1, foto2LandingPage1, getStartedBut
             <div className='landingContentPage1Container'>
                 <div>
                     <section>
-                        <div>
+                        <div className='containerLandingPresentation'>
                         <div className='fotoContainerLandingPage1'>
                             <picture>
                                 <img className='fotoLandingPage1' src={fotoLandingPage1} alt='landing page 1 img'/>
                             </picture>
                         </div>
-                            <div>
+                            <div className='presentationInfoContainerLandingPage1'>
                                 <h1 className='dontReinventTitle'>Don't Reinvent the Wheel</h1>
                                 <p>Use Origin Theme to jumpstart your company's marketing website.</p>
-                            </div>
-                            <div>
+                           
                                 <div>
                                     <button className={getStartedButton}>Get Started</button>
                                 </div>

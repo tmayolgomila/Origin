@@ -8,6 +8,7 @@ import About from './pages/About';
 import LandingPage1 from './pages/LandingPage1';
 import CompanyPage1 from './pages/CompanyPage1';
 import BlogPost from './pages/BlogPost';
+import Consultation from './pages/Consultation';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="landingPage1" element={<LandingPage1 />} />
           <Route path="companyPage1" element={<CompanyPage1 />} />
           <Route path="blogPost" element={<BlogPost />} />
+          <Route path="consultation" element={<Consultation/>} />
 
       </Routes>
     </BrowserRouter>

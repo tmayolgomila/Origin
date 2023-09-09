@@ -1,0 +1,166 @@
+@media(min-width:1200px){
+    .footerWeb{
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+    .consultationContainer{
+        margin-top: 4em;
+        padding: 1em;
+        max-width: 60vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotoContainerConsultation{
+
+        justify-content: center;
+        max-width: 30vw;
+        padding: 1em;
+        height: 600px;
+    }
+    .contactContainerWeb{
+        max-width: 30vw;
+        height: 500px;
+        max-height: 500px;
+    }
+    .fotoConsultation{
+        height: 600px;
+        max-height: 600px;
+    }
+
+
+
+}
+@media(max-width:1200px) and (min-width:1020px){
+    
+    .consultationContainer{
+        display: none;
+        margin-top: 4em;
+        padding: 1em;
+        max-width: 60vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .fotoContainerConsultation{
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+    .fotoConsultation{
+        border-radius: 20px;
+        width: 30vw;
+    }
+    .contactUsContainerDark{
+        width: 25vw;
+    }
+}
+
+
+.fotoConsultation{
+    border-radius: 20px;
+    width: 100%;
+}
+.consultationContainer{
+    margin-top: 4em;
+    padding: 1em;
+}
+.contactUsContainerClassic{
+    background: rgb(242, 242, 242);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 1em;
+}
+.contactUsContainerDark{
+    background: rgb(51, 51, 51);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 1em;
+}
+.contactUsContainerEarth{
+    background: rgb(255, 236, 217);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 1em;
+}
+.contactUsContainerOcean{
+    background: rgb(238, 241, 243);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 1em;
+}
+.submitContactButtonClassic{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+}
+.submitContactButtonDark{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.submitContactButtonEarth{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(227, 138, 32);
+    color: white;
+}
+.submitContactButtonOcean{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius:20px;
+    background: rgb(21, 86, 172);
+    color: white;
+}
+.inputContainerConsultation{
+   width: 100%;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+.inputNameFormConsultation{
+ width: 100%;
+ border: none;
+ border-radius: 9px;
+}
+.inputMessageFormConsultation{
+    width: 100% ;
+    height: 100px;
+    border: none;
+    border-radius: 9px;
+}
