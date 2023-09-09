@@ -100,32 +100,6 @@ const LandingPagesContent = ({ className, classNameLink }) => {
 
             </section>
 
-            <section>
-                <h2>Theme Pages</h2>
-                <p>
-                Learn more about how to set up and use the Origin Theme.
-                </p>
-                <div className="containerLandingWeb">
-             
-                <Link className={classNameLink} to="/blogs">
-                    <div className={className}>
-                        <div className="landingContainerImage">
-                            <h3 className="landingTitle">Get Started</h3>
-                            <img className="fotoLanding" src={playa1} alt="foto landing 8"/>
-                        </div>
-                    </div>
-                </Link>
-                <Link className={classNameLink} to="/blogs">
-                    <div className={className}>
-                        <div className="landingContainerImage">
-                            <h3 className="landingTitle">Style Guide</h3>
-                            <img className="fotoLanding" src={playa1} alt="foto landing 9"/>
-                        </div>
-                    </div>
-                </Link>
-            
-                </div>
-            </section>
 
 
         </div>
