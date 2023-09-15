@@ -78,6 +78,7 @@
     border-radius: 20px;
     margin-right: 1em;
     color:white;
+    cursor: pointer;
 }
 
 .styleGuideButton{
@@ -86,6 +87,7 @@
     color: black;
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 .getStartedButton1{
     background:rgb(255, 255, 255);
@@ -94,6 +96,7 @@
     border:none;
     border-radius: 20px;
     margin-right: 1em;
+    cursor: pointer;
 }
 
 .styleGuideButton1{
@@ -102,6 +105,7 @@
     color: white;
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 .getStartedButton2{
     background: rgb(227, 138, 32);
@@ -111,6 +115,7 @@
     border-radius: 20px;
     margin-right: 1em;
     color: white;
+    cursor: pointer;
 }
 
 .styleGuideButton2{
@@ -119,6 +124,7 @@
     color: rgb(0, 0, 0);
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 .getStartedButton3{
     background: rgb(21, 86, 172);
@@ -128,6 +134,7 @@
     border-radius: 20px;
     margin-right: 1em;
     color: white;
+    cursor: pointer;
 }
 
 .styleGuideButton3{
@@ -136,6 +143,7 @@
     color: rgb(0, 0, 0);
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 
 .buttonThemes{
@@ -157,13 +165,29 @@
     background: #ECE9E6;
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+#buttonClassic:hover{
+    transform: scale(1.2) rotate(-90deg);
+    transition:transform .2s;
+
+}
+
+#buttonClassic:active{
+    transform: scale(1) rotate(0deg);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(255,234,0,1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(255,234,0,1);
+    box-shadow: 0px 0px 8px 1px rgba(255,234,0,1);
 }
 
 #buttonDark{
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
-    color: white;   
+    color: white;  
+    cursor: pointer; 
 }
 
 #buttonEarth{
@@ -171,6 +195,7 @@
     background: -webkit-linear-gradient(to right, #f5af19, #f12711); 
     background: linear-gradient(to right, #f5af19, #f12711); 
     color: white;
+    cursor: pointer;
 }
 
 #buttonOcean{
@@ -178,6 +203,7 @@
     background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
     background: linear-gradient(to right, #26D0CE, #1A2980);
     color: white;
+    cursor: pointer;
 }
 
 .landingContainerClassic{
