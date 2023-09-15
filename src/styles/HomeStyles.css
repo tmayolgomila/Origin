@@ -162,11 +162,15 @@
     background: #ECE9E6;
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-    cursor: pointer;
-    transition: transform .4s;
 }
 
 @media (min-width: 600px){
+
+    #buttonClassic{
+        cursor: pointer;
+        transition: transform .4s;
+    }
+
     #buttonClassic:hover{
         transform: scale(1.2) rotate(-90deg);
         transition:transform .2s;
