@@ -20,7 +20,7 @@
    max-height: 80vh;
 }
  /*web styles*/
- @media (min-width: 1200px) {
+ @media (min-width: 1000px) {
     .containerAbout{
         display: block;
         justify-content: center;
@@ -44,8 +44,13 @@
         margin-bottom: 2em;
         padding: 1em;
     }
+    .fotoAbout{
+        width: 30vw;
+    }
     .footerWeb{
         max-width: 70vw;
         margin: 0 auto;
        }
  }
+
+ 
