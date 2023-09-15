@@ -139,11 +139,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2ch;
+    padding: 2em;
 }
 
 .buttonThemes button{
-    margin: 0.2em;
+    margin: 0.5em;
     border-radius: 50%;
     height: 60px;
     width: 60px;
@@ -164,14 +164,60 @@
     }
 
     #buttonClassic:hover{
-        transform: scale(1.2) rotate(-90deg);
+        transform: scale(1.2);
         transition:transform .2s;
     
     }
     
     #buttonClassic:active{
-        transform: scale(1) rotate(0deg);
+        transform: scale(1);
     }
+
+    #buttonDark{
+        cursor: pointer;
+        transition: transform .4s;
+    }
+
+    #buttonDark:hover{
+        transform: scale(1.2);
+        transition:transform .2s;
+    
+    }
+    
+    #buttonDark:active{
+        transform: scale(1);
+    }
+
+    #buttonEarth{
+        cursor: pointer;
+        transition: transform .4s;
+    }
+
+    #buttonEarth:hover{
+        transform: scale(1.2);
+        transition:transform .2s;
+    
+    }
+    
+    #buttonEarth:active{
+        transform: scale(1);
+    }
+
+    #buttonOcean{
+        cursor: pointer;
+        transition: transform .4s;
+    }
+
+    #buttonOcean:hover{
+        transform: scale(1.2);
+        transition:transform .2s;
+    
+    }
+    
+    #buttonOcean:active{
+        transform: scale(1);
+    }
+
     .getStartedButton{
         cursor: pointer;
     }
